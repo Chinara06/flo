@@ -1,0 +1,98 @@
+
+  .header {
+    padding: 30px 150px ;
+    &__top{
+      position: fixed;
+      align-items: center;
+      justify-content: space-between;
+      display: flex;
+      padding: 24px 50px;
+      column-gap: 400px;
+      background: white;
+      z-index: 999999;
+      &.active{
+        background: white;
+        border-radius: 99px;
+        box-shadow: 0 4px 20px rgba(0, 0, 0, .15);
+      }
+    }
+    &__nav{
+      align-items: center;
+      display: flex;
+      column-gap: 20px;
+    }
+
+    &__item{
+      position: relative;
+      float: left;
+      a{
+        padding: 7px 24px;
+        border-radius: 10px;
+        align-items: center;
+        color: #000;
+        display: flex;
+        font-size: 14px;
+        font-weight: 700;
+        justify-content: space-between;
+        letter-spacing: .013em;
+        transition: .3s;
+        border: none;
+      }
+      a:hover{
+        background: #F7CAC9;
+      }
+    }
+    &__ul{
+      position: absolute;
+      left: 0;
+      width: 250px;
+      background: white;
+      column-gap: 30px;
+      display: none;
+      border: 1px solid  #e5f4f7;
+      border-radius: 10px;
+    }
+    &__item:hover > ul {
+      display: initial;
+    }
+    &__bottom{
+      margin: 120px 200px 10px ;
+      align-items: center;
+      text-align: center;
+      border-radius: 99px;
+      background-color: #4E5B73;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+    &__text{
+      color: #fff;
+      font-size: 14px;
+      line-height: 25.2px;
+      padding: 24px;
+      a{
+        color: #fff;
+        text-decoration: underline;
+      }
+    }
+    &__form{
+
+    }
+    &__select {
+      -webkit-appearance: none;
+      -moz-appearance: none;
+      appearance: none;
+      border: none;
+      outline: none;
+      align-items: center;
+      color: #000;
+      font-size: 14px;
+      font-weight: 700;
+      padding: 0 30px;
+      background-color: transparent;
+    }
+    &__select option:checked {
+      background-color: transparent;
+    }
+
+  }

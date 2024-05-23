@@ -1,0 +1,36 @@
+.press{
+  &__row{
+    padding: 100px 0;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+
+  &__card{
+    color: #000;
+    display: flex;
+    flex-basis: 32%;
+    flex-direction: column;
+    margin-bottom: 48px;
+    width: calc(33.33333% - 20px);
+    -webkit-text-decoration: none;
+    text-decoration: none;
+  }
+  &__img{
+   img{
+     border-radius: 20px;
+   }
+  }
+  &__title{
+    font-size: 16px;
+    line-height: 24px;
+    color: black;
+  }
+  &__desc{
+    color: rgba(0, 0, 0, .5);
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 22.4px;
+    margin-top: 8px;
+  }
+}

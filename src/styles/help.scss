@@ -1,0 +1,104 @@
+.help{
+  &__row{
+    background: #f4e9f6;
+    padding: 150px 300px 150px 0;
+  }
+  &__title{
+    font-size: 58px;
+    line-height: 70px;
+    color: #000000;
+    margin: 135px 0 36px 16.04%;
+    text-align: left;
+  }
+  &__inner{
+    background: #FFFFFF;
+    border-radius: 10px;
+    box-sizing: border-box;
+    padding: 20px 20px 20px 20px;
+    -webkit-appearance: none;
+    width: 100%;
+    margin: 35px 0 36px 16.04%;
+    display: flex;
+    column-gap: 20px;
+    input{
+      font-weight: 300;
+      max-width: 100%;
+      box-sizing: border-box;
+      transition: border .12s ease-in-out;
+      border: none;
+      outline: none;
+      font-size: 18px;
+      color: #666;
+    }
+  }
+  &__inner:active{
+    border: 1px solid blueviolet;
+  }
+  .about{
+    background: #fdfdfd;
+    &__row{
+      padding: 70px 100px;
+      justify-content: center;
+    }
+    &__card{
+      display: flex;
+      flex-wrap: wrap;
+      column-gap: 20px;
+      align-items: center;
+      text-align: center;
+    }
+    &__list{
+      background: white;
+      width: calc(33.33333% - 20px);
+      padding: 30px 0 40px;
+      margin-bottom: 20px;
+      border-radius: 15px;
+      box-shadow: 1px 1px 20px -19px;
+    }
+    &__img{
+      width: 100%;
+      margin-bottom: 8px;
+    }
+    &__title{
+      font-weight: bold;
+      font-size: 24px;
+      line-height: 24px;
+      color: #000;
+      transition: opacity 0.3s ease
+    }
+  }
+  .contact {
+    background: #fdfdfd;
+    &__row {
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      padding: 100px 0 130px;
+    }
+    &__title{
+      font-weight: bold;
+      font-size: 32px;
+      line-height: 37px;
+      color: #000000;
+      text-align: center;
+    }
+    &__btn{
+      display: inline-flex;
+      font-family: "Roboto", sans-serif;
+      font-weight: bold;
+      font-size: 18px;
+      line-height: 21px;
+      background: linear-gradient(45deg, #EB5E8F 0%, #F0707D 100%);
+      color: #fff;
+      border: 1px solid #FF5A7D;
+      box-sizing: border-box;
+      border-radius: 99px;
+      padding: 16px 48px;
+      margin: 21px auto 0;
+      transition: all 0.3s ease;
+      cursor: pointer;
+      text-decoration: none;
+    }
+
+  }
+}

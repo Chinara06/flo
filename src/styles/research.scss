@@ -1,0 +1,104 @@
+.research{
+  &__row{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    justify-content: center;
+    text-align: center;
+    padding: 100px 0;
+  }
+  &__title{
+    font-size: 60px;
+    font-weight: 800;
+    line-height: 1;
+    margin: 0 0 25px ;
+  }
+  &__subtitle{
+    font-size: 20px;
+    line-height: 37px;
+    padding: 0 120px;
+    margin-bottom: 100px;
+    text-align: start;
+  }
+  &__titles{
+    font-size: 50px;
+    font-weight: 800;
+    line-height: 1;
+    margin: 0 0 25px ;
+  }
+  &__subtitles{
+    font-size: 20px;
+    line-height: 37px;
+    padding: 0 120px;
+    margin-bottom: 100px;
+    text-align: center;
+    span{
+      font-size: 20px;
+      font-weight: 700;
+    }
+  }
+  .meet{
+    &__title{
+      font-size: 40px;
+      font-weight: 900;
+      line-height: 1;
+      margin-bottom: 72px;
+      text-align: center;
+    }
+    &__row{
+      align-items: center;
+      display: flex;
+      flex-wrap: wrap;
+      text-align: center;
+      justify-content: flex-start;
+      margin-bottom: 100px;
+    }
+    &__card{
+      width: calc(50% - 15px);
+      display: flex;
+      justify-content: center;
+      a{
+        margin-top: 45px;
+      }
+    }
+    &__subtitle{
+      color: black;
+      font-size: 25px;
+      font-weight: 900;
+      line-height: 30px;
+      margin-bottom: 8px;
+      text-decoration: underline;
+    }
+    &__subtitle:hover{
+      text-decoration: none;
+    }
+    &__profession{
+      font-size: 16px;
+      line-height: 28.8px;
+      color: rgba(0, 0, 0, .5);
+    }
+    &__btn{
+      align-items: center;
+      text-align: center;
+      margin-bottom: 100px;
+      a{
+        background-color: #0e7270;
+        color: #fff;
+        border: none;
+        border-radius: 80px;
+        display: inline-block;
+        font-weight: 600;
+        font-size: 20px;
+        text-align: center;
+        transition: .3s;
+        white-space: nowrap;
+        padding: 10px 10px;
+
+      }
+      a:active{
+        box-shadow: 0 0 10px rgba(0, 0, 0, .25);
+      }
+    }
+  }
+}

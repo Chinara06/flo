@@ -1,0 +1,82 @@
+.oneMore{
+  &__row{
+    display: flex;
+    align-items: center;
+    column-gap: 100px;
+    margin: 100px 0 ;
+  }
+  &__name{
+    font-size: 45px;
+    font-weight: 900;
+    line-height: 1;
+    color: black;
+  }
+  &__profession{
+    color: rgba(0, 0, 0, .6);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 37px;
+    margin: 16px 0 24px;
+  }
+  &__title{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 160%;
+    margin-top: 24px;
+    color: black;
+  }
+  .areas{
+    &__row{
+      display: flex;
+      align-items: start;
+      column-gap: 100px;
+      margin: 100px 0;
+    }
+    &__text{
+      font-size: 25px;
+      font-style: italic;
+      font-weight: 400;
+      line-height: 31px;
+      color: black
+    }
+    &__expert{
+      span{
+        font-size: 25px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 120%;
+        margin-bottom: 16px;
+        color: black;
+      }
+      color: black;
+      font-size: 20px;
+      margin-bottom: 30px;
+    }
+    &__career{
+      span{
+        font-size: 25px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 120%;
+        margin-bottom: 16px;
+        color: black;
+      }
+      color: black;
+      font-size: 20px;
+      margin-bottom: 30px;
+    }
+    &__education{
+      span{
+        font-size: 25px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 120%;
+        margin-bottom: 16px;
+        color: black;
+      }
+      color: black;
+      font-size: 20px;
+      margin-bottom: 30px;
+    }
+  }
+}

@@ -1,0 +1,40 @@
+.try{
+  &__row{
+    align-items: center;
+    text-align: center;
+    padding: 100px 150px;
+  }
+  &__img{
+    width: 100%;
+  }
+  &__title{
+    font-size: 50px;
+    font-weight: 900;
+  }
+  &__subtitle{
+    font-size: 18px;
+    line-height: 32.4px;
+    margin-top: 32px;
+    span{
+     color: hotpink;
+      font-weight: 700;
+    }
+  }
+  &__subtitles{
+    font-size: 18px;
+    line-height: 32.4px;
+    margin-top: 32px;
+    span{
+      font-weight: 700;
+    }
+  }
+  &__desc{
+    color: hsl(0, 0%, 60%);
+    font-size: 15px;
+  }
+  &__market{
+    margin: 50px 0 100px ;
+    img{
+    }
+  }
+}

@@ -1,0 +1,154 @@
+.medical{
+
+  &__row{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    justify-content: center;
+    text-align: center;
+    padding: 100px 0;
+  }
+  &__title{
+    font-size: 60px;
+    font-weight: 900;
+    line-height: 1;
+    margin: 0 0 25px ;
+  }
+  &__subtitle{
+    font-size: 20px;
+    line-height: 37px;
+    padding: 0 280px;
+    text-align: center;
+    margin-bottom: 100px;
+  }
+  .swiper{
+    margin-bottom: 60px;
+    &__row {
+
+      padding: 0 200px;
+    }
+    &__slide{
+      text-align: center;
+      align-items: center;
+      width: 400px;
+      padding: 0 400px;
+    }
+    &__title{
+      font-size: 20px;
+      font-weight: 900;
+      line-height: 26px;
+      margin-bottom: 20px;
+
+    }
+    &__subtitle{
+      font-size: 14px;
+      line-height: 25.2px;
+      a{
+        color: black;
+        text-decoration: underline;
+      }
+    }
+
+  }
+  .swiper-button-prev{
+    color: black;
+    align-items: center;
+    background-color: #fff;
+    border: 1px solid #000;
+    border-radius: 50%;
+    cursor: pointer;
+    display: flex;
+    height: 70px;
+    justify-content: center;
+    position: absolute;
+    transition: opacity .125s ease;
+    width: 70px;
+  }
+  .swiper-button-next{
+    color: black;
+    align-items: center;
+    background-color: #fff;
+    border: 1px solid #000;
+    border-radius: 50%;
+    cursor: pointer;
+    display: flex;
+    height: 70px;
+    justify-content: center;
+    position: absolute;
+    transition: opacity .125s ease;
+    width: 70px;
+  }
+  .swiper-pagination-bullet-active{
+    background-color: #0a5457;
+  }
+  .meet{
+    &__title{
+      font-size: 40px;
+      font-weight: 900;
+      line-height: 1;
+      margin-bottom: 72px;
+      text-align: center;
+    }
+    &__row{
+      align-items: center;
+      display: flex;
+      flex-wrap: wrap;
+      text-align: center;
+      justify-content: flex-start;
+      margin-bottom: 100px;
+    }
+    &__card{
+      width: calc(50% - 15px);
+      display: flex;
+      justify-content: center;
+      a{
+        margin-top: 45px;
+      }
+    }
+    &__subtitle{
+      color: #0a5457;
+      font-size: 25px;
+      font-weight: 900;
+      line-height: 30px;
+      margin-bottom: 8px;
+      text-decoration: underline;
+    }
+    &__subtitle:hover{
+      text-decoration: none;
+    }
+    &__profession{
+      font-size: 16px;
+      line-height: 28.8px;
+      color: rgba(0, 0, 0, .5);
+    }
+    &__button{
+      display: block;
+    }
+    &__btn{
+      margin-left: 150px;
+      a{
+        background-color: #000;
+        color: #fff;
+        font-size: 18px;
+        font-weight: 700;
+        padding: 18px 32px;
+        border-radius: 30px;
+      }
+    }
+    &__rounds{
+      align-items: center;
+      background-color: #d7eaf3;
+      border-radius: 50%;
+      display: flex;
+      height: 170px;
+      justify-content: center;
+      margin-left: 10px;
+      margin-right: 10px;
+      overflow: hidden;
+      width: 170px;
+      font-size: 30px;
+      font-weight: 600;
+    }
+  }
+}
