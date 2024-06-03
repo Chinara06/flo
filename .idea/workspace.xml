@@ -1,56 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="745e8f84-31ba-4598-9151-63c09fe3e92e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Partner/Partner.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/Contact/Contact.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/redux/due/due.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/redux/hcg/hcg.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/redux/implantation/implantation.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/redux/ivf/ivf.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/redux/library/library.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/redux/period/period.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/redux/pregnancyCalc/pregnancyCalc.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/redux/test/test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/redux/text/text.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/redux/ultrasound/ultrasound.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/styles/contact.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/styles/partner.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.json" beforeDir="false" afterPath="$PROJECT_DIR$/db.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Layout/Header/Header.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Layout/Header/Header.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/ Pregnancy/Pregnancy.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/ Pregnancy/Pregnancy.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Cycle/Cycle.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Cycle/Cycle.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Due/Due.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Due/Due.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Hcg/Hcg.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Hcg/Hcg.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Help/Help.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Help/Help.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Implantation/Implantation.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Implantation/Implantation.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Ivf/Ivf.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Ivf/Ivf.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Library/Library.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Library/Library.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/More/More.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/More/More.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/OneMore/OneMore.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/OneMore/OneMore.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Ovulation/Ovulation.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Ovulation/Ovulation.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Period/Period.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Period/Period.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/PregnancyCalc/PregnancyCalc.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/PregnancyCalc/PregnancyCalc.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Pregnant/Pregnant.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Pregnant/Pregnant.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Test/Test.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Test/Test.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Tracking/Tracking.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Tracking/Tracking.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Ultrasound/Ultrasound.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Ultrasound/Ultrasound.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/more/more.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/more/more.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/team/team.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/team/team.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/header.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/help.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/help.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/more.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/more.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/ovulation.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/ovulation.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/pregnancy.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/pregnancy.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/pregnant.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/pregnant.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/style.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/tracking.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/tracking.scss" afterDir="false" />
-    </list>
+    <list default="true" id="745e8f84-31ba-4598-9151-63c09fe3e92e" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -303,7 +254,7 @@
       <workItem from="1717352467429" duration="2981000" />
       <workItem from="1717355491534" duration="344000" />
       <workItem from="1717358587261" duration="5168000" />
-      <workItem from="1717433536078" duration="454000" />
+      <workItem from="1717433536078" duration="550000" />
     </task>
     <servers />
   </component>
