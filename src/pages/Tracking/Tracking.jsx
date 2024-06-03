@@ -234,9 +234,11 @@ const Tracking = () => {
                             <br/>
                             Own your health.
                         </h2>
+                    <Link to={"/try"}>
                         <button className="own__btn">
                             Try Flo today, for free
                         </button>
+                    </Link>
                         <h4 className="own__subtitle">
                             “Never in my life left an app review but had to for Flo. It's so personalized, after a couple months use it started accurately predicting my moods, physical symptoms, energy levels & everything you can think of.”
                         </h4>

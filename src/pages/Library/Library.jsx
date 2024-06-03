@@ -1,7 +1,13 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 import {Link} from "react-router-dom"
-
+import {useDispatch, useSelector} from "react-redux";
+import {getLibrary} from "../../redux/library/library";
 const Library = () => {
+    const {data} = useSelector(store => store.library);
+    const dispatch = useDispatch();
+    useEffect(() => {
+        dispatch(getLibrary())
+    })
     return (
         <section className={"library"}>
                 <div className="library__row">
@@ -131,6 +137,7 @@ const Library = () => {
                     </section>
                     <section className="info">
                         <div className="info__row">
+
                             <div className="explore__top">
                                 <h3 className="explore__title">
                                     Health 360°
@@ -138,66 +145,25 @@ const Library = () => {
                                 <div className="explore__line"></div>
                             </div>
                             <div className="info__cards">
-                                <a href="">
-                                    <div className="info__card">
-                                        <div className="info__img">
-                                            <img src="https://flo.health/uploads/media/sulu-846x-inset/01/10111-woman%20sharing%20her%20cycle%20with%20her%20partner.jpg?v=1-0" alt="" width={"197"} height={"122"}/>
-                                        </div>
-                                        <div className="info__texts">
-                                            <p className="info__desc">
-                                                Sexual health
-                                            </p>
-                                            <h3 className="info__text">
-                                                Can you have sex on your period?
-                                            </h3>
-                                        </div>
-                                    </div>
-                                </a>
-                                <a href="">
-                                    <div className="info__card">
-                                        <div className="info__img">
-                                            <img src="https://flo.health/uploads/media/sulu-846x-inset/01/10111-woman%20sharing%20her%20cycle%20with%20her%20partner.jpg?v=1-0" alt="" width={"197"} height={"122"}/>
-                                        </div>
-                                        <div className="info__texts">
-                                            <p className="info__desc">
-                                                Sexual health
-                                            </p>
-                                            <h3 className="info__text">
-                                                Can you have sex on your period?
-                                            </h3>
-                                        </div>
-                                    </div>
-                                </a>
-                                <a href="">
-                                    <div className="info__card">
-                                        <div className="info__img">
-                                            <img src="https://flo.health/uploads/media/sulu-846x-inset/01/10111-woman%20sharing%20her%20cycle%20with%20her%20partner.jpg?v=1-0" alt="" width={"197"} height={"122"}/>
-                                        </div>
-                                        <div className="info__texts">
-                                            <p className="info__desc">
-                                                Sexual health
-                                            </p>
-                                            <h3 className="info__text">
-                                                Can you have sex on your period?
-                                            </h3>
-                                        </div>
-                                    </div>
-                                </a>
-                                <a href="">
-                                    <div className="info__card">
-                                        <div className="info__img">
-                                            <img src="https://flo.health/uploads/media/sulu-846x-inset/01/10111-woman%20sharing%20her%20cycle%20with%20her%20partner.jpg?v=1-0" alt="" width={"197"} height={"122"}/>
-                                        </div>
-                                        <div className="info__texts">
-                                            <p className="info__desc">
-                                                Sexual health
-                                            </p>
-                                            <h3 className="info__text">
-                                                Can you have sex on your period?
-                                            </h3>
-                                        </div>
-                                    </div>
-                                </a>
+                                {
+                                    data.map((item) => (
+                                        <a href="">
+                                            <div className="info__card">
+                                                <div className="info__img">
+                                                    <img src={item.image} alt="" width={"197"} height={"122"}/>
+                                                </div>
+                                                <div className="info__texts">
+                                                    <p className="info__desc">
+                                                        Sexual health
+                                                    </p>
+                                                    <h3 className="info__text">
+                                                        Can you have sex on your period?
+                                                    </h3>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    ))
+                                }
                             </div>
                         </div>
                     </section>

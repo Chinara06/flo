@@ -1,6 +1,17 @@
-import React from 'react';
+import React, {useEffect, useState} from 'react';
+import {getSearchTeam} from "../../redux/team/team";
+import {useDispatch, useSelector} from "react-redux";
+import { IoMdPerson } from "react-icons/io";
+import { MdMedicalServices } from "react-icons/md";
 
 const Help = () => {
+    const [name,setName] = useState("")
+    const dispatch = useDispatch()
+    const onChange = (e) => {
+        setName(e.target.value)
+        dispatch(getSearchTeam(name))
+    }
+    const {dataSearch} = useSelector(store => store.team)
     return (
         <section className={"help"}>
                 <div className="help__row">
@@ -8,16 +19,35 @@ const Help = () => {
                             How can Flo help you?
                         </h2>
                       <div className="help__inner">
-                          <svg width="20" height="20" viewBox="0 0 20 20" fill="none" focusable="false"
-                               xmlns="http://www.w3.org/2000/svg" className="search-icon" aria-hidden="true">
-                              <path fill-rule="evenodd" clip-rule="evenodd"
-                                    d="M2 9C2 5.13401 5.13401 2 9 2C12.866 2 16 5.13401 16 9C16 12.866 12.866 16 9 16C5.13401 16 2 12.866 2 9ZM9 0C4.02944 0 0 4.02944 0 9C0 13.9706 4.02944 18 9 18C11.125 18 13.078 17.2635 14.6177 16.0319L18.2929 19.7071C18.6834 20.0976 19.3166 20.0976 19.7071 19.7071C20.0976 19.3166 20.0976 18.6834 19.7071 18.2929L16.0319 14.6177C17.2635 13.078 18 11.125 18 9C18 4.02944 13.9706 0 9 0Z"
-                                    fill="#828282"></path>
-                          </svg>
-                          <label className="help__form">
-                              <input type="search" placeholder="What would you like to find?" size={"40"}/>
+                          <label className="help__find">
+                                  <svg width="20" height="20" viewBox="0 0 20 20" fill="none" focusable="false"
+                                       xmlns="http://www.w3.org/2000/svg" className="search-icon" aria-hidden="true">
+                                  <path fill-rule="evenodd" clip-rule="evenodd"
+                                        d="M2 9C2 5.13401 5.13401 2 9 2C12.866 2 16 5.13401 16 9C16 12.866 12.866 16 9 16C5.13401 16 2 12.866 2 9ZM9 0C4.02944 0 0 4.02944 0 9C0 13.9706 4.02944 18 9 18C11.125 18 13.078 17.2635 14.6177 16.0319L18.2929 19.7071C18.6834 20.0976 19.3166 20.0976 19.7071 19.7071C20.0976 19.3166 20.0976 18.6834 19.7071 18.2929L16.0319 14.6177C17.2635 13.078 18 11.125 18 9C18 4.02944 13.9706 0 9 0Z"
+                                        fill="#828282"></path>
+                              </svg>
+                              <input type="search" onChange={(e) => onChange(e)} placeholder="What would you like to find?" size={"40"}/>
                           </label>
+                          {
+                              dataSearch ?  <div className={"help__team"}>
+                                  {
+                                      dataSearch.map(item => (
+                                          <div className={"help__person"}>
+                                              <p className="help__name">
+                                                  <span>  <IoMdPerson /></span>
+                                                  {item.name}
+                                              </p>
+                                            <p className="help__profession">
+                                                <span><MdMedicalServices /></span>
+                                                {item.profession}
+                                            </p>
+                                          </div>
+                                      ))
+                                  }
+                              </div> : ""
+                          }
                 </div>
+
             </div>
             <section className="about">
                 <div className="about__row">

@@ -2,79 +2,54 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="745e8f84-31ba-4598-9151-63c09fe3e92e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/db.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Home/Home.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Layout/Footer/Footer.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Layout/Header/Header.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Layout/Layout.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/ Pregnancy/Pregnancy.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/About/About.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/Being/Being.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/Calculators/Calculators.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/Cycle/Cycle.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/Due/Due.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/Experts/Experts.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/Getting/Getting.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/Hcg/Hcg.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/Health/Health.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/Help/Help.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/Implantation/Implantation.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/Ivf/Ivf.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/Library/Library.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/Madical/Medical.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/More/More.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/OneMore/OneMore.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/Ovulation/Ovulation.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/Partners/Partners.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/Period/Period.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/PregnancyCalc/PregnancyCalc.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/PregnancyTwo/PregnancyTwo.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/Pregnant/Pregnant.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/Press/Press.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/Research/Research.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/See/See.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/Test/Test.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/Tracking/Tracking.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/Try/Try.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/Ultrasound/Ultrasound.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/redux/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/redux/more/more.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/redux/team/team.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/styles/OneMore.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/styles/about.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/styles/calculators.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/styles/experts.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/styles/footer.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/styles/header.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/styles/help.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/styles/home.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/styles/library.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/styles/medical.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/styles/more.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/styles/ovulation.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/styles/partners.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/styles/pregnancy.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/styles/pregnant.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/styles/press.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/styles/research.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/styles/see.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/styles/style.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/styles/tracking.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/styles/try.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/utils/axios.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Partner/Partner.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/Contact/Contact.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/redux/due/due.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/redux/hcg/hcg.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/redux/implantation/implantation.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/redux/ivf/ivf.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/redux/library/library.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/redux/period/period.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/redux/pregnancyCalc/pregnancyCalc.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/redux/test/test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/redux/text/text.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/redux/ultrasound/ultrasound.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/contact.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/partner.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.json" beforeDir="false" afterPath="$PROJECT_DIR$/db.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.test.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/logo.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/reportWebVitals.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/setupTests.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Layout/Header/Header.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Layout/Header/Header.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/ Pregnancy/Pregnancy.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/ Pregnancy/Pregnancy.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Cycle/Cycle.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Cycle/Cycle.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Due/Due.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Due/Due.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Hcg/Hcg.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Hcg/Hcg.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Help/Help.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Help/Help.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Implantation/Implantation.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Implantation/Implantation.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Ivf/Ivf.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Ivf/Ivf.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Library/Library.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Library/Library.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/More/More.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/More/More.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/OneMore/OneMore.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/OneMore/OneMore.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Ovulation/Ovulation.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Ovulation/Ovulation.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Period/Period.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Period/Period.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/PregnancyCalc/PregnancyCalc.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/PregnancyCalc/PregnancyCalc.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Pregnant/Pregnant.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Pregnant/Pregnant.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Test/Test.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Test/Test.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Tracking/Tracking.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Tracking/Tracking.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Ultrasound/Ultrasound.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Ultrasound/Ultrasound.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/more/more.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/more/more.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/team/team.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/team/team.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/header.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/help.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/help.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/more.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/more.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/ovulation.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/ovulation.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/pregnancy.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/pregnancy.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/pregnant.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/pregnant.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/style.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/tracking.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/tracking.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -115,6 +90,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Amin_stors\Desktop\flo\src\redux" />
       <recent name="C:\Users\Amin_stors\Desktop\flo\src\pages\More" />
     </key>
   </component>
@@ -305,7 +281,28 @@
       <workItem from="1716297682743" duration="1269000" />
       <workItem from="1716394076057" duration="1812000" />
       <workItem from="1716445092791" duration="2434000" />
-      <workItem from="1716466369227" duration="5522000" />
+      <workItem from="1716466369227" duration="6058000" />
+      <workItem from="1716529727056" duration="3840000" />
+      <workItem from="1716558590704" duration="9007000" />
+      <workItem from="1716614224912" duration="9766000" />
+      <workItem from="1716638988261" duration="5096000" />
+      <workItem from="1716713973391" duration="8063000" />
+      <workItem from="1716794494346" duration="2144000" />
+      <workItem from="1716820071362" duration="3675000" />
+      <workItem from="1716827557716" duration="4546000" />
+      <workItem from="1716899748983" duration="3987000" />
+      <workItem from="1716903970780" duration="181000" />
+      <workItem from="1717034763546" duration="347000" />
+      <workItem from="1717035219264" duration="1657000" />
+      <workItem from="1717056241032" duration="3899000" />
+      <workItem from="1717071260294" duration="6171000" />
+      <workItem from="1717138660738" duration="720000" />
+      <workItem from="1717159926422" duration="3511000" />
+      <workItem from="1717217296916" duration="817000" />
+      <workItem from="1717317714820" duration="2711000" />
+      <workItem from="1717352467429" duration="2981000" />
+      <workItem from="1717355491534" duration="344000" />
+      <workItem from="1717358587261" duration="5168000" />
     </task>
     <servers />
   </component>
@@ -317,13 +314,13 @@
       <screen x="0" y="0" width="1536" height="816" />
     </state>
     <state x="223" y="63" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.816@0.0.1536.816" timestamp="1713813373494" />
-    <state x="499" y="155" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1712424529132">
+    <state x="499" y="155" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1716626925851">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state x="499" y="155" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.816@0.0.1536.816" timestamp="1712424529132" />
-    <state x="425" y="185" key="run.anything.popup" timestamp="1715689940008">
+    <state x="499" y="155" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.816@0.0.1536.816" timestamp="1716626925851" />
+    <state x="425" y="185" key="run.anything.popup" timestamp="1716820445801">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state x="425" y="185" key="run.anything.popup/0.0.1536.816@0.0.1536.816" timestamp="1715689940008" />
+    <state x="425" y="185" key="run.anything.popup/0.0.1536.816@0.0.1536.816" timestamp="1716820445801" />
   </component>
 </project>

@@ -1,13 +1,12 @@
 
   .header {
-    padding: 30px 150px ;
+    padding: 30px 200px ;
     &__top{
       position: fixed;
       align-items: center;
       justify-content: space-between;
       display: flex;
-      padding: 24px 50px;
-      column-gap: 400px;
+      padding: 15px 60px;
       background: white;
       z-index: 999999;
       &.active{
@@ -19,9 +18,13 @@
     &__nav{
       align-items: center;
       display: flex;
+      justify-content: space-between;
       column-gap: 20px;
     }
-
+    &__content{
+      display: flex;
+      align-items: center;
+    }
     &__item{
       position: relative;
       float: left;
@@ -94,5 +97,22 @@
     &__select option:checked {
       background-color: transparent;
     }
-
+    &__lists{
+      display: flex;
+      align-items: center;
+    }
+    &__btn{
+      background: linear-gradient(45deg, #eb5e8f, #f0707d);
+      color: #fff;
+      border: none;
+      border-radius: 80px;
+      display: inline-block;
+      font-weight: 700;
+      text-align: center;
+      transition: .3s;
+      white-space: nowrap;
+      font-size: 18px;
+      letter-spacing: .013em;
+      padding: 10px 20px;
+    }
   }

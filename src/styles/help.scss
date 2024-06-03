@@ -14,25 +14,53 @@
     background: #FFFFFF;
     border-radius: 10px;
     box-sizing: border-box;
-    padding: 20px 20px 20px 20px;
     -webkit-appearance: none;
-    width: 100%;
+    cursor: pointer;
     margin: 35px 0 36px 16.04%;
     display: flex;
+    position: relative;
+  }
+  &__inner:hover{
+    border: 1px solid blueviolet;
+  }
+  &__find{
+    width: 100%;
+    padding: 20px 20px;
     column-gap: 20px;
     input{
+      margin-left: 20px;
       font-weight: 300;
-      max-width: 100%;
       box-sizing: border-box;
-      transition: border .12s ease-in-out;
       border: none;
       outline: none;
+      max-width: 100%;
       font-size: 18px;
       color: #666;
     }
   }
-  &__inner:active{
-    border: 1px solid blueviolet;
+  &__person{
+    background: white;
+    margin-bottom: 10px;
+    padding: 10px 20px;
+  }
+  &__person:hover{
+    border: 1px solid darkviolet;
+    text-decoration: underline darkviolet;
+  }
+  &__name{
+    span{
+      margin-right: 10px;
+    }
+  }
+  &__profession{
+    span{
+      margin-right: 10px;
+    }
+  }
+  &__team{
+    position: absolute;
+    top: 100%;
+    margin-top: 20px;
   }
   .about{
     background: #fdfdfd;
@@ -99,6 +127,5 @@
       cursor: pointer;
       text-decoration: none;
     }
-
   }
 }

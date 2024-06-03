@@ -10,7 +10,7 @@ const OneMore = () => {
         const {id} = useParams();
         useEffect(() => {
             dispatch(getOneMore(id))
-        },[])
+        },[id])
         return (
             <section className={"oneMore"}>
                 <div className="container">

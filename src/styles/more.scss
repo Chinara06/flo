@@ -27,13 +27,8 @@
     display: flex;
     justify-content: start;
     align-items: center;
-
-    a{
-      margin-top: 45px;
-      display: flex;
-      column-gap: 20px;
-      align-items: center;
-    }
+    margin-top: 45px;
+    column-gap: 20px;
   }
   &__texts{
     margin-right: 120px;

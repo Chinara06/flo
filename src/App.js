@@ -24,6 +24,17 @@ import More from "./pages/More/More";
 import See from "./pages/See/See";
 import OneMore from "./pages/OneMore/OneMore";
 import Ovulation from "./pages/Ovulation/Ovulation";
+import Hcg from "./pages/Hcg/Hcg";
+import Test from "./pages/Test/Test";
+import Period from "./pages/Period/Period";
+import Implantation from "./pages/Implantation/Implantation";
+import PregnancyCalc from "./pages/PregnancyCalc/PregnancyCalc";
+import Due from "./pages/Due/Due";
+import Ivf from "./pages/Ivf/Ivf";
+import Ultrasound from "./pages/Ultrasound/Ultrasound";
+import Contact from "./pages/Contact/Contact";
+import Partner from "./Partner/Partner";
+
 function App() {
     return(
         <Routes>
@@ -51,6 +62,16 @@ function App() {
             <Route path={"/see"} element={<See/>}/>
             <Route path={"/oneMore/:id"} element={<OneMore/>}/>
             <Route path={"/ovulation"} element={<Ovulation/>}/>
+            <Route path={"/hcg"} element={<Hcg/>}/>
+            <Route path={"/test"} element={<Test/>}/>
+            <Route path={"/period"} element={<Period/>}/>
+            <Route path={"/implantation"} element={<Implantation/>}/>
+            <Route path={"/pregnancyCalc"} element={<PregnancyCalc/>}/>
+            <Route path={"/due"} element={<Due/>}/>
+            <Route path={"/ivf"} element={<Ivf/>}/>
+            <Route path={"/ultrasound"} element={< Ultrasound/>}/>
+            <Route path={"/contact"} element={< Contact/>}/>
+            <Route path={"/partner"} element={< Partner/>}/>
             </Route>
         </Routes>
 

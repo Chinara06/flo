@@ -2,13 +2,13 @@
   background: #e5d1ea;
   &__row{
     position: relative;
+
   }
   &__left{
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin: 60px 0 0;
-    width: 70%;
   }
   &__title{
     color: #000;
@@ -20,14 +20,27 @@
   &__desc{
     font-size: 16px;
     line-height: 28.8px;
+    margin-right: 180px;
   }
   .data{
     background: #f2f2f2;
+    padding: 0 200px;
+    &__period-input::-webkit-inner-spin-button {
+      /* display: none; <- Crashes Chrome on hover */
+      -webkit-appearance: none;
+      margin: 0; /* <-- Apparently some margin are still there even though it's hidden */
+    }
     &__row{
       background: white;
-      padding: 50px 100px;
       display: flex;
-      column-gap: 50px;
+      column-gap: 40px;
+    }
+    &__left{
+      margin-left: 40px;
+      width: 70%;
+    }
+    &__panel{
+      align-items: center;
     }
     &__desc{
       margin: 20px 0;
@@ -39,17 +52,20 @@
       }
     }
     &__text{
-      display: flex;
       align-items: center;
-      column-gap: 10px;
       color: #6a6a6a;
       font-size: 14px;
+      margin-bottom: 20px;
+      line-height: 30px;
+      img{
+        margin-right: 10px;
+        align-items: center;
+      }
       span{
         color: #0e7270;
         font-weight: 700;
         -webkit-text-decoration:none;
       }
-      margin-bottom: 20px;
     }
     &__subtitle{
       display: flex;
@@ -126,22 +142,51 @@
       font-size: 18px;
       font-weight: 700;
     }
-    background: #f2f2f2;
-    &__row{
+    .download {
       background: white;
-      padding: 0 200px;
+      &__banner {
+        background: #0a5457;
+        border-radius: 20px;
+        text-align: center;
+        padding-bottom: 20px;
+        margin-bottom: 30px;
+      }
+      &__svg{
+        padding: 40px 0;
+      }
+      &__title{
+        font-size: 30px;
+        line-height: 36px;
+        color: white;
+        margin-bottom: 30px;
+      }
+      &__subtitle{
+        font-size: 17px;
+        line-height: 28.8px;
+        font-weight: 500;
+        margin-bottom: 40px;
+        color: white;
+      }
+      &__btns{
+        margin-bottom: 30px;
+      }
+      &__btn{
+          border: none;
+          border-radius: 80px;
+          text-align: center;
+          transition: .3s;
+          font-size: 18px;
+          font-weight: 700;
+          letter-spacing: .013em;
+          line-height: 25.2px;
+          background: white;
+          padding: 16px 32px;
+          color: #0a5457;
+      }
     }
-   &__banner{
-     background: #0a5457;
-     border-radius: 20px;
-     span{
-       text-align: center;
-       align-items: center;
-       justify-content: center;
-     }
-   }
     &__right{
-
+      width: 30%;
+      position: relative;
       &-title{
         font-size: 16px;
         font-weight: 700;
@@ -150,9 +195,14 @@
         padding-left: 10px;
         text-transform: uppercase;
       }
-      &-list{
+      &-lists{
+        position: fixed;
+        z-index: 99999;
+        background: white;
+        margin-right: 200px;
+      }
         li{
-          margin: 20px 0;
+          margin: 20px 0 20px 0;
         }
         a{
           color: rgba(0, 0, 0, .5);
@@ -166,21 +216,83 @@
         a:hover{
           color: #0a5457;
         }
-      }
-
     }
     &__lists{
-      z-index: 9999999;
-      position: fixed;
       background: white;
-      width: 30%;
     }
-    &__list{
-
+  }
+  .image{
+    img{
+      margin-bottom: 30px;
+    }
+    &__texts{
+      font-size: 17px;
+      font-weight: 500;
+      line-height: 28.8px;
+    }
+    &__desc{
+      margin-bottom: 30px;
+    }
+  }
+  .text{
+    background: #f2f2f2;
+    &__row{
+      background: white;
+    }
+    &__title{
+      color: #000;
+      font-size: 30px;
+      font-weight: 600;
+      line-height: 1;
+      margin-bottom: 24px;
+    }
+    &__desc{
+      font-size: 17px;
+      font-weight: 500;
+      line-height: 28.8px;
+      margin-bottom: 24px;
+    }
+  }
+  .learn{
+    background: white;
+    &__banner {
+      background: #ee6984;
+      border-radius: 20px;
+      text-align: center;
+      padding-bottom: 20px;
+      margin-bottom: 30px;
+    }
+    &__svg{
+      padding: 40px 0;
+    }
+    &__title{
+      font-size: 30px;
+      line-height: 36px;
+      color: white;
+      margin-bottom: 30px;
+    }
+    &__subtitle{
+      font-size: 17px;
+      line-height: 28.8px;
+      font-weight: 500;
+      margin: 0 40px 40px 40px;
+      color: white;
+    }
+    &__btns{
+      margin-bottom: 30px;
+    }
+    &__btn{
+      border: none;
+      border-radius: 80px;
+      text-align: center;
+      transition: .3s;
+      font-size: 18px;
+      font-weight: 700;
+      letter-spacing: .013em;
+      line-height: 25.2px;
+      background: white;
+      padding: 16px 32px;
+      color: #0a5457;
     }
   }
   }
-
-.footer{
-  background: #f2f2f2;
-}

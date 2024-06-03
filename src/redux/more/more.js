@@ -69,7 +69,7 @@ const moreSlice = createSlice({
             .addCase(getOneMore.fulfilled, (state, action) => {
                 state.status = 'resolve';
                 state.error = '';
-                state.data = action.payload;
+                state.oneMore = action.payload;
             })
     },
 });

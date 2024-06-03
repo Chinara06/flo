@@ -20,8 +20,8 @@ const More = () => {
                     <div className="more__cards">
                         {
                             data.map((item) => (
-                                <Link to={`/oneMore/${item.id}`} className="more__card">
-                                    <a href="">
+                                <Link to={`/oneMore/${item.id}`} key={item.id} className="more__card">
+
                                         <div className="more__img">
                                             <img src={item.image} alt=""/>
                                         </div>
@@ -38,7 +38,6 @@ const More = () => {
                                             </p>
                                         </div>
 
-                                    </a>
                                 </Link>
                             ))
                         }

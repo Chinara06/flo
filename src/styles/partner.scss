@@ -1,7 +1,8 @@
-.pregnant {
+.partner{
   width: 100%;
+
   .content {
-    background: #e8f6f6;
+    background: #fcefe7;
     width: 100%;
 
     &__row {
@@ -60,7 +61,7 @@
       display: flex;
       align-items: center;
       padding: 120px 0;
-      column-gap: 60px;
+      column-gap: 30px;
     }
     &__left {
       display: flex;
@@ -80,7 +81,7 @@
       max-width: 532px;
       width: 532px;
       span{
-        background: #8ed1d2;
+        background: #ffc0cd;
       }
     }
     &__row-percent{
@@ -93,10 +94,10 @@
       display: flex;
       flex-direction: column;
       justify-content: center;
-      background: #fff3f5;
+      background: #f4e9f6;
       border-radius: 50%;
-      width: 240px;
-      height: 240px;
+      width: 250px;
+      height: 250px;
     }
     &__row-text{
       span{
@@ -119,11 +120,11 @@
       align-items: center;
       display: flex;
       flex-direction: column;
-      width: 240px;
-      height: 240px;
+      width: 250px;
+      height: 250px;
       border-radius: 50%;
       justify-content: center;
-      background: #f4e9f6;
+      background: #d0e2de;
       position: absolute;
       left: 90%;
       top: 40%;
@@ -145,6 +146,7 @@
       font-weight: 600;
       line-height: 32px;
       text-align: center;
+      color: #ffc0cd;
       margin-bottom: 20px;
     }
     &__card{
@@ -170,6 +172,7 @@
     }
     &__subtitle{
       text-align: start;
+      color: #ffc0cd;
       sup{
         font-size: 17px;
       }
@@ -238,6 +241,7 @@
       width: 100%;
       column-gap: 20px;
       align-items: start;
+      text-align: start;
     }
     &__img{
       margin-left: 100px;
@@ -294,50 +298,47 @@
   .own{
     background: #0e7270;
     &__row{
-      display: flex;
-      &__left{
-        img{
-          width: 100%;
-        }
-      }
-    }
-    &__right{
-      padding: 50px 50px 0 50px;
-      width: 100%;
+      padding: 100px 0 70px;
+      text-align: center;
+      align-items: center;
     }
     &__title{
       font-size: 32px;
       line-height: 48px;
-      max-width: 377px;
+      margin-bottom: 30px;
       color: white;
-      margin-bottom: 20px;
+    }
+    &__btn{
+      background-color: #fff;
+      border: 1px solid #0e7270;
+      color: #0e7270;
+      font-size: 20px;
+      font-weight: 600;
+      line-height: 32px;
+      padding: 16px 32px;
+      border-radius: 80px;
+      text-align: center;
+      margin-bottom: 120px;
     }
     &__subtitle{
       font-size: 24px;
       font-weight: 600;
       line-height: 32px;
-      max-width: 488px;
+      margin-bottom: 20px;
       color: white;
-      margin: 180px 0 30px;
     }
     &__card{
       display: flex;
       text-align: start;
-      column-gap: 20px;
+      justify-content: center;
+      column-gap: 15px;
+      align-items: center;
     }
     &__texts{
-      display: block;
-
-    }
-    &__text{
-      font-size: 16px;
-      line-height: 24px;
       color: white;
     }
-    &__desc{
-      color: #b8f0ef;
-      font-size: 14px;
-      line-height: 24px;
+    &__text{
+      margin-bottom: 7px;
     }
   }
   .references{

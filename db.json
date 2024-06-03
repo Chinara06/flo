@@ -14,6 +14,16 @@
     {
       "id": 2,
       "image": "https://flo.health/uploads/media/sulu-180x180-inset/06/8616-5246-liudmila-zhaunova.png?v=1-0",
+      "name": "Liudmila Zhaunova, PhD",
+      "profession": "Flo director of science, UK",
+      "title": "My goal is to bring cutting-edge female health research to the forefront and ensure the delivery of the most accurate and effective product to Flo’s vast global user base.",
+      "text": "“I am strongly committed to advancing evidence-based product development to improve customer health outcomes. I’m incredibly excited to further my research career as part of the Flo science team, which allows me to explore female health on a broader scale. Within Flo, I’m dedicated to ensuring that the app we provide to millions of women and individuals who menstruate worldwide is scientifically validated for its accuracy and effectiveness.”\n— Liudmila Zhaunova, PhD",
+      "career": "Flo Health Inc. – Director of science, since 2023\nFlo Health Inc. – Principal research scientist, 2021–2023\nFlo Health Inc. – Lead research scientist, 2019–2021\nUniversitätsklinikum Bonn – Postdoctoral researcher in reproductive oncology, 2018–2019",
+      "education": "University of Edinburgh – PhD in reproductive biology, 2017"
+    },
+    {
+      "id": 3,
+      "image": "https://flo.health/uploads/media/sulu-180x180-inset/05/6395-kym-jacks-bryant_light%20%281%29.png?v=1-0",
       "name": "Kym Jacks-Bryant",
       "profession": "Director of Medical Affairs and Partnerships",
       "title": "“Whatever her role in life, whether she is a mother, boss, or friend, each woman should feel empowered and successful. But in order to achieve that, she needs to be healthy. Female health has been neglected within the medical community for far too long, and it deserves much more attention and action today. I believe that through scientific research and education on reproductive and sexual health, we can drive innovation and societal change for the better.”",
@@ -23,8 +33,8 @@
       "education": "Belarusian State Medical University – Degree in medicine, anesthesiology, and intensive care, 2010\nBelarusian State Medical University – Specialist in clinical trials, 2010\nEmergency Hospital – Internship in intensive care medicine and anesthesiology, 2010–2011\nIPM Business School – Degree in marketing, 2014\nThe Chartered Institute of Marketing – Degree in strategic marketing, 2016"
     },
     {
-      "id": 3,
-      "image": "https://flo.health/uploads/media/sulu-180x180-inset/05/6395-kym-jacks-bryant_light%20%281%29.png?v=1-0",
+      "id": 4,
+      "image": "https://flo.health/uploads/media/sulu-180x180-inset/03/5203-Claudia_Pastides_light.png?v=1-0",
       "name": "Claudia Pastides",
       "profession": "Director of Medical Accuracy (Content)",
       "title": "“Whatever her role in life, whether she is a mother, boss, or friend, each woman should feel empowered and successful. But in order to achieve that, she needs to be healthy. Female health has been neglected within the medical community for far too long, and it deserves much more attention and action today. I believe that through scientific research and education on reproductive and sexual health, we can drive innovation and societal change for the better.”",
@@ -34,26 +44,15 @@
       "education": "Belarusian State Medical University – Degree in medicine, anesthesiology, and intensive care, 2010\nBelarusian State Medical University – Specialist in clinical trials, 2010\nEmergency Hospital – Internship in intensive care medicine and anesthesiology, 2010–2011\nIPM Business School – Degree in marketing, 2014\nThe Chartered Institute of Marketing – Degree in strategic marketing, 2016"
     },
     {
-      "id": 4,
-      "image": "https://flo.health/uploads/media/sulu-180x180-inset/03/5203-Claudia_Pastides_light.png?v=1-0",
-      "name": "András Meczner",
-      "profession": "Flo director of medical accuracy and safety",
-      "title": "“Whatever her role in life, whether she is a mother, boss, or friend, each woman should feel empowered and successful. But in order to achieve that, she needs to be healthy. Female health has been neglected within the medical community for far too long, and it deserves much more attention and action today. I believe that through scientific research and education on reproductive and sexual health, we can drive innovation and societal change for the better.”",
-      "text": "“I love being able to apply my clinical and marketing knowledge to ensure our users worldwide have access to a reliable, evidence-based app to support their health. My overarching goal at Flo is to raise more global awareness about various conditions affecting female health and to integrate clinical practice into people’s everyday lives.”\n— Anna Klepchukova",
-      "expert": "Pharmaceuticals \nObstetrics and gynecology\nMarketing\nIntensive care medicine\nAnesthesiology\n",
-      "career": "The International Federation of Gynecology and Obstetrics (FIGO) – Working group member focused on development of the ovulatory disorders classification system, since 2021\nFlo Health Inc. – Chief medical officer, since 2017 \nGoogle Launchpad – Mentor for start-up founders\nTakeda Pharmaceuticals – Marketing manager, 2015–2017\nEmergency Hospital – Intensive care medicine doctor, 2010–2013",
-      "education": "Belarusian State Medical University – Degree in medicine, anesthesiology, and intensive care, 2010\nBelarusian State Medical University – Specialist in clinical trials, 2010\nEmergency Hospital – Internship in intensive care medicine and anesthesiology, 2010–2011\nIPM Business School – Degree in marketing, 2014\nThe Chartered Institute of Marketing – Degree in strategic marketing, 2016"
-    },
-    {
       "id": 5,
       "image": "https://flo.health/uploads/media/sulu-180x180-inset/02/10282-Andr%C3%A1s%20Meczner_lightgrey_2024_1%281%29.png?v=1-0",
-      "name": "Anna Klepchukova",
-      "profession": "Chief Medical Officer",
-      "title": "“Whatever her role in life, whether she is a mother, boss, or friend, each woman should feel empowered and successful. But in order to achieve that, she needs to be healthy. Female health has been neglected within the medical community for far too long, and it deserves much more attention and action today. I believe that through scientific research and education on reproductive and sexual health, we can drive innovation and societal change for the better.”",
-      "text": "“I love being able to apply my clinical and marketing knowledge to ensure our users worldwide have access to a reliable, evidence-based app to support their health. My overarching goal at Flo is to raise more global awareness about various conditions affecting female health and to integrate clinical practice into people’s everyday lives.”\n— Anna Klepchukova",
-      "expert": "Pharmaceuticals\nObstetrics and gynecology\nMarketing\nIntensive care medicine\nAnesthesiology\n",
-      "career": "The International Federation of Gynecology and Obstetrics (FIGO) – Working group member focused on development of the ovulatory disorders classification system, since 2021\nFlo Health Inc. – Chief medical officer, since 2017 \nGoogle Launchpad – Mentor for start-up founders\nTakeda Pharmaceuticals – Marketing manager, 2015–2017\nEmergency Hospital – Intensive care medicine doctor, 2010–2013",
-      "education": "Belarusian State Medical University – Degree in medicine, anesthesiology, and intensive care, 2010\nBelarusian State Medical University – Specialist in clinical trials, 2010\nEmergency Hospital – Internship in intensive care medicine and anesthesiology, 2010–2011\nIPM Business School – Degree in marketing, 2014\nThe Chartered Institute of Marketing – Degree in strategic marketing, 2016"
+      "name": "András Meczner",
+      "profession": "Flo director of medical accuracy and safety",
+      "title": "“The most important thing for me while working at Flo is to make sure that the most accurate and safest information reaches the many millions of people using our app.“",
+      "text": "“I like to solve problems and help people. Whether it is working in the hospital or in the office, I feel my work is a combination of these two. Knowing that my work at Flo might affect so many people is exciting and a lot of responsibility.”",
+      "career": "Flo Health – Director of medical accuracy and safety, since 2023\nHealthily – Vice president of medical operations, 2021–2023\nHealthily – Head of clinical operations, 2019–2021 \nHealthily – Clinical lead, 2018–2019\nVarious hospitals across London (currently Guy’s and St. Thomas’ NHS Foundation Trust) – Senior clinical fellow of neonatology, since 2016\nVarious hospitals across London – Junior clinical fellow in pediatrics and neonatology, 2013–2016\nSemmelweis University – Resident doctor in pediatrics, 2010–2012",
+      "education": "Semmelweis University, Degree in medicine, 2009"
+
     }
   ],
   "more": [
@@ -177,7 +176,7 @@
           "career": "American Institute for Cognitive Therapy – Director of behavioral medicine, runs the young adult group\nMount Sinai Hospital – Supervisor to psychiatry fellows \nFerkauf Graduate School of Psychology – Adjunct faculty clinical supervisor\nServes on the New York State Psychological Association Division of Culture, Race, and Ethnicity\nAmerican Psychological Association’s Committee – Past Northeast regional advocacy coordinator and representative\nEducation",
           "education": "Linehan Institute Training Company – Dialectical behavior therapy intensive training with behavioral tech\nMarquette University – Neuroanatomical dissection on the human brain and spinal cord\nPSI and 2020 Mom – Maternal mental health certificate training for mental health and clinical professionals\nNew York University Langone Medical Center – Fellowship in clinical neurorehabilitation psychology at Rusk Rehabilitation, 201 –2014\nYeshiva University, Ferkauf Graduate School of Psychology and Albert Einstein College of Medicine – PhD in clinical psychology, 2007–2012\nNew York University Langone Medical Center – Internship in psychology at Rusk Rehabilitation, 2011–2012"
         },
-    {
+        {
           "id": 13,
           "image": "https://flo.health/uploads/media/sulu-146x146-inset/03/4463-Angie%20Asche.png?v=1-0",
           "name": "Angie Asche, MS, RD",
@@ -217,7 +216,7 @@
           "career": "American Institute for Cognitive Therapy – Director of behavioral medicine, runs the young adult group\nMount Sinai Hospital – Supervisor to psychiatry fellows \nFerkauf Graduate School of Psychology – Adjunct faculty clinical supervisor\nServes on the New York State Psychological Association Division of Culture, Race, and Ethnicity\nAmerican Psychological Association’s Committee – Past Northeast regional advocacy coordinator and representative\nEducation",
           "education": "Linehan Institute Training Company – Dialectical behavior therapy intensive training with behavioral tech\nMarquette University – Neuroanatomical dissection on the human brain and spinal cord\nPSI and 2020 Mom – Maternal mental health certificate training for mental health and clinical professionals\nNew York University Langone Medical Center – Fellowship in clinical neurorehabilitation psychology at Rusk Rehabilitation, 201 –2014\nYeshiva University, Ferkauf Graduate School of Psychology and Albert Einstein College of Medicine – PhD in clinical psychology, 2007–2012\nNew York University Langone Medical Center – Internship in psychology at Rusk Rehabilitation, 2011–2012"
         },
-    {
+       {
       "id": 17,
       "image": "https://flo.health/uploads/media/sulu-146x146-inset/05/8615-Adiele%20Hoffman.png?v=1-0",
       "name": "Adiele Hoffman",
@@ -326,16 +325,444 @@
       "text": "“Our perception is the lens with which we understand and navigate the world. I love helping my patients adjust their perceptions by meeting them where they are and serving as a mirror through which they can see their world a little differently. This creates the space for small shifts that compound, leading to dramatic results.”\n— Heather Glubo, PhD",
       "career": "American Institute for Cognitive Therapy – Director of behavioral medicine, runs the young adult group\nMount Sinai Hospital – Supervisor to psychiatry fellows \nFerkauf Graduate School of Psychology – Adjunct faculty clinical supervisor\nServes on the New York State Psychological Association Division of Culture, Race, and Ethnicity\nAmerican Psychological Association’s Committee – Past Northeast regional advocacy coordinator and representative\nEducation",
       "education": "Linehan Institute Training Company – Dialectical behavior therapy intensive training with behavioral tech\nMarquette University – Neuroanatomical dissection on the human brain and spinal cord\nPSI and 2020 Mom – Maternal mental health certificate training for mental health and clinical professionals\nNew York University Langone Medical Center – Fellowship in clinical neurorehabilitation psychology at Rusk Rehabilitation, 201 –2014\nYeshiva University, Ferkauf Graduate School of Psychology and Albert Einstein College of Medicine – PhD in clinical psychology, 2007–2012\nNew York University Langone Medical Center – Internship in psychology at Rusk Rehabilitation, 2011–2012"
+    }
+  ],
+  "text": [
+    {
+      "id": 1,
+      "title": "Fertility cycle: What is ovulation?",
+      "textOne": "If you’ve landed on this ovulation calculator, you might already be familiar with what ovulation is. But if you’re still a bit confused, let’s break it down with the help of Dr. Jennifer Boyle, obstetrician and gynecologist (OB-GYN) at Massachusetts General Hospital.",
+      "textTwo":"“Ovulation is when an oocyte, commonly called an egg, is released from the ovary,” Dr. Boyle says, adding that ovulation is necessary for a woman to become pregnant — and there's usually a 24-hour window when the egg can be fertilized by the sperm. For more info, take a look at our implantation calculator to find out when your pregnancy officially began.",
+      "textThree": "But here’s another fun fact: “It’s also ovulation that causes a woman to have a period two weeks later if she doesn’t become pregnant.” This is because the ovaries signal a spike in progesterone right after ovulation, but if there’s no fertilized egg, those hormone levels start to decrease, and the body sheds the egg along with the lining of the uterus via a period."
     },
     {
-      "id": 28,
-      "image": "https://flo.health/uploads/media/sulu-146x146-inset/02/4672-sandy-skotnicki.png?v=1-0",
-      "name": "Heather Glubo, PhD",
-      "profession": "Psychologist, director of behavioral medicine, the American Institute for Cognitive Therapy, New York, US",
-      "title": "“Through my training and experience, I’ve found that when we treat a whole person rather than a list of symptoms, overall outcomes can be significantly improved.”",
-      "text": "“Our perception is the lens with which we understand and navigate the world. I love helping my patients adjust their perceptions by meeting them where they are and serving as a mirror through which they can see their world a little differently. This creates the space for small shifts that compound, leading to dramatic results.”\n— Heather Glubo, PhD",
-      "career": "American Institute for Cognitive Therapy – Director of behavioral medicine, runs the young adult group\nMount Sinai Hospital – Supervisor to psychiatry fellows \nFerkauf Graduate School of Psychology – Adjunct faculty clinical supervisor\nServes on the New York State Psychological Association Division of Culture, Race, and Ethnicity\nAmerican Psychological Association’s Committee – Past Northeast regional advocacy coordinator and representative\nEducation",
-      "education": "Linehan Institute Training Company – Dialectical behavior therapy intensive training with behavioral tech\nMarquette University – Neuroanatomical dissection on the human brain and spinal cord\nPSI and 2020 Mom – Maternal mental health certificate training for mental health and clinical professionals\nNew York University Langone Medical Center – Fellowship in clinical neurorehabilitation psychology at Rusk Rehabilitation, 201 –2014\nYeshiva University, Ferkauf Graduate School of Psychology and Albert Einstein College of Medicine – PhD in clinical psychology, 2007–2012\nNew York University Langone Medical Center – Internship in psychology at Rusk Rehabilitation, 2011–2012"
+      "id": 2,
+      "title": "Ovulation date: How is ovulation calculated? How many days after my period do I ovulate?",
+      "textOne": "So now that we know what it is, how many days after your period can you expect to ovulate? Well, the complicated thing is that everyone is different — but usually, you can tell when you will ovulate by the length of your cycle. ",
+      "textTwo":"The first day of your cycle is the first day of your period, and typically, most people will ovulate anywhere from 7 to 21 days into their cycle. Where exactly ovulation falls within that bracket depends on how long your cycle is. “Normal menstrual cycles can range from every 21 days to every 35 days,” says Dr. Boyle. “The time from ovulation to the next menstrual bleed will always be about 14 days — that’s generally the same for all women. But the time from the beginning of a period until ovulation is what can vary.”"
+    },
+    {
+      "id": 3,
+      "title": "How many days after your period can you get pregnant?",
+      "textOne": "Here’s what that means in practice: “For women with cycles of 21 days, this means they ovulate [and can get pregnant] on day 7. If cycles are 28 days, then ovulation usually happens on day 14. For 35-day cycles, ovulation will be on day 21,” explains Dr. Boyle."
+    },
+    {
+      "id": 4,
+      "title": "Ovulation chart: What is a fertile window? Can I get pregnant a few days after ovulation?",
+      "textOne": "It’s especially important to track ovulation if you want to get pregnant because that gives you a firm idea of your fertile window. But … what actually is a fertile window? ",
+      "textTwo":"Remember, it’s not possible to conceive throughout your whole cycle, so the fertile window is the small window of time where you could potentially get pregnant. “The fertile window is generally considered to be the 5 days before ovulation and the day of ovulation. This is because sperm can live in a woman’s body for up to 5 days,” says Dr. Boyle. “By contrast, the egg only survives or is viable and able to be fertilized for about 24 hours after ovulation. Studies show that the chance of pregnancy is highest when couples have sex 1 to 2 days before ovulation.”",
+      "textThree": "So, if you’ve ever wondered if you can get pregnant a few days after ovulation, the answer is no. Because the egg only lasts for up to a day after it’s released, there would be nothing for the sperm to fertilize if you had unprotected sex in the days after you ovulated. That’s why it’s so key to know when you’re ovulating, and using an ovulation calculator is a really good way to predict this. "
+    },
+    {
+      "id": 5,
+      "title": "What are the signs of ovulation?",
+      "textOne": "The Flo app can be used as an ovulation tracker, but the body also gives off signs of ovulation, which some people prefer to monitor as well as taking ovulation tests. These won’t be the same for everyone but may include:",
+      "textTwo":"Fertile cervical mucus (“This will be a stretchy or stringy [discharge] that resembles egg whites. It’s very slippery and helps allow the sperm to get into the uterus. This mucus is released about 1 to 2 days before ovulation,” explains Dr. Boyle.)",
+      "textThree": "A bit of blood or pinkish tinge to your cervical mucus ",
+      "textFour": "An increase in sexual desire or thoughts (due to “an increase in testosterone around the time of ovulation”) ",
+      "textFive": "Nipple or breast tenderness",
+      "textSix": "Pelvic pressure or discomfort on one side or another (caused by the follicle that contains the egg stretching over the surface of the ovary. “Not everyone notices this feeling, and just because you don’t, it doesn’t mean you’re not ovulating,” reassures Dr. Boyle.)"
+    },
+    {
+      "id": 6,
+      "title": "How can you increase your chances of getting pregnant?",
+      "textOne": "The main thing you can do to improve your chances of getting pregnant is to make sure you’re having sex at the right time. Remember, Dr. Boyle points to research suggesting that couples who have sex 1 to 2 days before ovulation are most likely to conceive.",
+      "textTwo":"Beyond that, there are some lifestyle tweaks you can make in preparation for getting pregnant. These include:",
+      "textThree": "Quitting smoking or using marijuana",
+      "textFour": "Cutting down on alcohol",
+      "textFive": "Exercising regularly at a moderate level"
+    },
+    {
+      "id": 7,
+      "title": "Ovulation tracking with Flo",
+      "textOne": "The journey to becoming pregnant, as well as pregnancy, birth, and being a parent, requires accepting that things are often outside of our control. But there are some things you can do to put some of the power back in your hands. Tracking ovulation and your periods is one of them, and you can do that easily with the Flo app. ",
+      "textTwo":"The more information you log in your own private, personal account, the smarter Flo gets when it comes to predicting your fertile window. You can use this to give you a better idea of when you can get pregnant. It’s basically like having this ovulation calculator permanently in your pocket, always accessible without having to input your data every time. Enjoy getting to know your menstrual cycle better!"
+    }
+  ],
+  "hcg": [
+    {
+      "id": 1,
+      "title": "When does hCG start?",
+      "textOne": "First up, you might be wondering when hCG starts to show up. The pregnancy hormone can be picked up in your urine and your blood once the embryo attaches itself to the uterine wall (between days 6 and 14 after the sperm has fertilized the egg).",
+      "textTwo":"A positive test confirms you’re pregnant. At-home pregnancy tests work by detecting hCG in your pee — normally from days 5 to 10 after your expected period, but some sensitive tests can detect it as early as 10 days after conception. ",
+      "textThree": "Dr. Sara Matthews, consultant gynecologist and fertility specialist at London’s Portland Hospital, says, “Home pregnancy tests using urine are very accurate. A positive result pretty much means you are pregnant, but before you celebrate or panic, make sure you are reading the test correctly — always check the instructions! A negative result may mean it’s simply too early to test, so if a period is delayed, the test should be repeated 2 to 3 days later.”",
+      "textFour": "Your doctor can request an in-clinic blood test to check for hCG. “This can be useful if there has been bleeding and a miscarriage is possible,” Dr. Matthews explains. “It can also help the doctor if an ectopic pregnancy is suspected (a pregnancy that has implanted outside the womb).” ”"
+    },
+    {
+      "id": 2,
+      "title": "Beta hCG calculator: What does hCG show?",
+      "textOne": "We now know that hCG in your urine and blood can show you’re pregnant, but that’s not all. Your health care provider can also learn more about how your pregnancy might be progressing from the hCG levels in your blood. ",
+      "textTwo":"“A pregnancy cannot be detected reliably by ultrasound until six weeks of pregnancy, so sometimes blood levels are monitored before then,” explains Dr. Matthews.”"
+    },
+    {
+      "id": 3,
+      "title": "Beta hCG calculator: What if hCG levels are low?",
+      "textOne": "Let’s look at what different hCG levels can mean with a little help from Dr. Matthews: ",
+      "textTwo": "Here’s what that means in practice: “For women with cycles of 21 days, this means they ovulate [and can get pregnant] on day 7. If cycles are 28 days, then ovulation usually happens on day 14. For 35-day cycles, ovulation will be on day 21,” explains Dr. Boyle.",
+      "textTree": "Here’s what that means in practice: “Falling hCG levels within the first six weeks could mean you’re at higher risk of having a miscarriage. If you’re worried about your hCG levels, then speak to your doctor right away.",
+      "textFour": "Lower than average hCG levels “might indicate that the pregnancy implanted a day or two later than expected,” Dr. Matthews says. It could also mean an ectopic pregnancy or a “biochemical” pregnancy. A biochemical pregnancy is a very early miscarriage where the embryo implants, but only for a few days, and a late period happens before a scan to confirm a pregnancy can be done. Again, speak to your doctor if you think this might apply to you.",
+      "textFive": "It’s important to remember that hCG levels are not a diagnosis on their own. They are just a sign that your doctor might need to do more tests. The tool above is designed for informational purposes only; you should always reach out to your health care provider for early pregnancy advice and support."
+    },
+    {
+      "id": 4,
+      "title": "hCG progression: What is a normal hCG level in pregnancy? When do hCG levels stop doubling?",
+      "textOne": "hCG levels in our blood change during the first trimester, rising rapidly. ",
+      "textTwo":"Nonpregnant women have less than 5 milli-international units per milliliter (mIU/mL). “A normal blood level for hCG on the day a period is due (14 days after ovulation) is 40 to 120 mIU/mL,” Dr. Matthews says. ”",
+      "textThree": "Levels should then double every 48 hours from weeks four to six, but that isn’t the case for everyone. hCG can vary from person to person and still mean a pregnancy is normal. In fact, a 2017 study into hCG found that “the slowest or minimal rise for a normal viable intrauterine pregnancy was 24% at one day and 53% at two days. More recently, a rise of 35% over 48 hours was proposed as the minimal increase consistent with a viable intrauterine pregnancy.",
+      "textFour": "Dr. Matthews adds that “hCG levels peak at around eight [to ten] weeks of pregnancy. [They] are unreliable after that, but at that stage, ultrasound is used [anyway].”"
+    },
+    {
+      "id": 5,
+      "title": "hCG levels in early pregnancy",
+      "textOne": "Remember that hCG levels vary from person to person and can be lower than average, so the above beta hCG chart should only be used as a rough guide."
+    },
+    {
+      "id": 6,
+      "title": "hCG doubling time: What does it mean?",
+      "textOne": "It’s important not to get fixated on hCG doubling time because, as we’ve learned, every pregnancy is different. That means your hCG levels might not double but are totally normal for you.",
+      "textTwo":"That said, it’s useful to know how hCG doubling time works in theory. Over to Dr. Matthews again: “An hCG level should double every 48 hours from four to six weeks [of pregnancy]. A level that does not double should be rechecked after another two days as it might indicate a failing pregnancy or a PUO (pregnancy of unknown origin). ",
+      "textThree": "“But an initially high level can also fall in a multiple pregnancy when one baby stops growing. In this situation, the other baby is not affected by that unless twins or triplets are identical (they come from one embryo that split when it’s implanted).”",
+      "textFour": "CSpeak to your doctor to put your hCG levels into context."
+    },
+    {
+      "id": 7,
+      "title": "At what hCG level will I miscarry?",
+      "textOne": "“A miscarriage is likely if the hCG level falls in the first six weeks of pregnancy, but don’t forget that it can also fall from a high level with an early ‘vanishing twin,’ so if no bleeding has happened by six weeks, then a lways scan to find more information,” Dr. Matthews says. ",
+      "textTwo":"“That is also of course an essential way to diagnose an ectopic pregnancy, commonly called a PUO (pregnancy of unknown origin), in the early stages that might be resolving itself without the need for an operation.",
+      "textTree":"“A negative urine hCG pregnancy test is registered when the level of hormone drops below 4 mIU/mL [or the test sensitivity threshold]. A period will inevitably start within 1 to 2 days.”"
+    },
+    {
+      "id": 8,
+      "title": "How Flo can help",
+      "textOne": "“In the early stages of pregnancy? We’ve got plenty of personalized information to help you track your baby’s development and changes to your body, week by week. Download the app now to get started. "
+    }
+  ],
+  "test": [
+    {
+      "id": 1,
+      "title": "Is there a difference between pregnancy tests?",
+      "textOne": "If you’ve ever looked at the pregnancy tests available at the store, you’ll likely have noticed that there are lots to choose from. It can be easy to feel overwhelmed. However, generally, pregnancy tests can be split into early pregnancy tests and standard pregnancy tests. ",
+      "textTwo":"Standard pregnancy tests are urine tests that can detect human chorionic gonadotropin (hCG — a hormone that your body releases in early pregnancy). This is the first indication that you might be pregnant. ",
+      "textThree": "It’s recommended that you wait until the first day of your missed period or at least 21 days after you’ve had unprotected sex before you take one. Waiting might feel impossible, but this allows your body to produce high enough levels of hCG to be detected by the test so that your result is more likely to be accurate. ",
+      "textFour": "“Early pregnancy tests are urine tests that can detect very low levels of urinary pregnancy levels [more on this below], some as early as five days before a missed period,” says Dr. Jones.  "
+    },
+    {
+      "id": 2,
+      "title": "When is a pregnancy test positive?",
+      "textOne": "Let’s be real: Accuracy and reliability are probably the most important factors on your mind when it comes to a pregnancy test. Nobody wants to receive an inaccurate result.",
+      "textTwo":"When used correctly (if you follow the instructions on the box), standard pregnancy tests are advertised as being incredibly accurate, around 99%. However, the earlier you take a pregnancy test, the harder it is to detect hCG. While you can take a standard pregnancy test on the first day that you miss your period, it’s generally recommended that you wait at least a week for more accurate results and to prevent a false negative (where the test gives you a negative result when you are in fact pregnant).",
+      "textThree":"Studies have reported that tests taken on the first day that you miss your period can be considered to have 90% sensitivity at detecting hCG. This rises to 97% if you wait one week after you’ve missed your period. "
+    },
+    {
+      "id": 3,
+      "title": "When is an early pregnancy test positive?",
+      "textOne": "While early pregnancy tests can be really useful if you’ve had an issue with your birth control, if you’ve been trying to conceive for a long time, or taking medication that may be damaging to a pregnancy, it’s important to note that they are considered to be less accurate. This is because your hCG levels are low at the very beginning of pregnancy, and the test may not be able to pick them up. This could lead to a false result. It’s rare for a test to give you a positive result when you’re not pregnant, but you may receive a negative result when you are pregnant if the test can’t detect the hCG in your pee. ",
+      "texTwo": "Your hCG levels rise throughout your first trimester. This is why the later you take a test, the more accurate it is. "
+    },
+    {
+      "id": 4,
+      "title": "Are there variations in hCG levels?",
+      "textOne": "The key to knowing when to take a pregnancy test lies in when hCG might start showing up on tests. Your body starts to produce hCG in your blood and pee once the embryo (fertilized egg) attaches to your uterine wall. This can happen between six days and two weeks after the egg is fertilized (conception). HCG is considered to be one of the earliest indicators of pregnancy. ",
+      "textTwo":"Generally, your hCG levels will double every 48 hours in your first trimester, peaking at around 10 weeks. After that point, they’ll level off. However, hCG levels can differ from person to person, and Dr. Jones explains that detection of hCG levels can vary in very early pregnancy depending on when you take a test.  ",
+      "textThree": "“[The detection of] hCG levels can be negative in early pregnancy if they are tested too early,” she says. “This can be due to the level of detection of the test (if the test you take isn’t sensitive enough) or if [you take a test] too close to the time of ovulation.” This is because your body hasn’t produced enough hCG yet. ",
+      "textFour": "If you do a pregnancy test that comes back positive, your health care provider may also give you a blood test to check your hCG levels."
+    },
+    {
+      "id": 5,
+      "title": "When to take a pregnancy test",
+      "textOne": "“The best time to check is after a missed period,” says Dr. Jones. As we now know, that’s due to the fact that your hCG levels will be high enough at that point for a standard test to pick up on them. But that two-week wait can be frustrating. Try to be kind to yourself during this waiting period. It can be difficult to ignore every twinge or flutter, but speak to loved ones if you’re worried and try to find things that relax and distract you until you can take a test. ",
+      "textTwo": "This is the golden time to take a pregnancy test. You can take a standard pregnancy test starting from the first day of your missed period. If it comes back positive, you can then reach out to your health care provider who will guide you on what to do next.",
+      "textThree": "Ovulation describes the process in your cycle when your ovaries release an egg. There’s usually a 24-hour window when your egg may then be fertilized by sperm if you have unprotected sex. ",
+      "textFour":"Knowing when you’re ovulating and when your fertile window is (the time in your cycle when you’re most likely to become pregnant) can help you understand any changes throughout your menstrual cycle. ",
+      "textFive":"You should wait at least two weeks after you’ve ovulated before taking a pregnancy test. This is because it can take between 6 and 14 days for an embryo to implant in your uterine wall and for hCG to begin being produced. "
+    },
+    {
+      "id": 6,
+      "title": "WWhen to take an early pregnancy test",
+      "textOne": "As we’ve seen, taking a standard pregnancy test can be a little bit of a waiting game. However, you’ll have the reassurance of knowing that they’re more accurate than early tests, so it could be worth the wait.  ",
+      "textTwo": "If you think that you may be pregnant or you’re trying to conceive, you might decide the wait is too long and consider taking an early pregnancy test. The good news is that you can take a specially designed early pregnancy test five days before you expect your period. If you’re not exactly sure when that is, you can track your cycle using an app like Flo to work out when to take one. ",
+      "textThree": "If the test comes back positive, reach out to your health care provider and follow it up with a standard pregnancy test either on the first day of your missed period or 21 days after you’ve had unprotected sex. "
+    },
+    {
+      "id": 7,
+      "title": "How to take an at-home urine test",
+      "textOne": "So, you think you might be pregnant and have gone out and bought a test. Now it’s time to actually do it. ",
+      "textTwo": "Both early and normal pregnancy urine tests can vary slightly depending on the brand you buy. However, they all detect hCG and, if you follow the instructions, can be really accurate. ",
+      "textThree": "If your pregnancy test comes back positive, then you should reach out to your health care provider who will advise you on what to do next. "
+    }
+  ],
+  "period": [
+    {
+      "id": 1,
+      "title": "How long is my cycle?",
+      "textOne": "Just like the length of a period, the length of a menstrual cycle will naturally vary from person to person. “A normal menstrual cycle — from day one, which is the first day of bleeding [full bleeding, not spotting], all the way up to the next period — can be anywhere from 21 to 35 days,” explains Dr. Twogood. ",
+      "textTwo":"If you’re struggling to use a menstrual cycle calendar because your periods are a bit, well, all over the place, don’t panic. It’s not necessarily a cause for concern. Fluctuations in the length of your menstrual cycle are incredibly common. In fact, research shows that between 14% and 25% of women have irregular menstrual cycles. As Dr. Twogood explains, these fluctuations can happen for all kinds of reasons. “Changes in lifestyle, diet, exercise, circadian rhythm, stress, weight gain, or weight loss are all contributors,” she says. “One reason for irregular ovulation is PCOS. Another is perimenopause or even premature ovarian insufficiency.” If you’re experiencing irregular periods, it could be a good idea to get checked by your health care provider. "
+    },
+    {
+      "id": 2,
+      "title": "What are the signs of your period coming?",
+      "textOne": "Your own body can often be a very accurate period predictor, as it will likely give you a number of signals to let you know your next period is on the way, which is pretty handy. These signals are very common. Anywhere between 80% and 90% of women will experience them. ",
+      "textTwo":"But why do we get these signals? “It’s thought to be due to the normal fluctuations of hormones at the end of the luteal phase [the days between ovulation and your period],” explains Dr. Twogood. “Both progesterone and estrogen drop significantly right before a period starts — that’s what causes a period!”",
+      "textThree":"If these symptoms are distressing or bothersome, then they’re categorized as premenstrual syndrome (PMS), which is also very common. Researchers reckon that around three in every four women have experienced PMS at some point. PMS symptoms will typically arrive in the five days leading up to your next period. ",
+      "textFour":"Wondering if you might have PMS? If you’re experiencing some of the symptoms below, and they’re bothersome or interfering with your life, you could be experiencing PMS.",
+      "textFive": "Have you ever noticed that your breasts feel more tender or even painful in the buildup to your next period? This could be due to PMS. “Progesterone typically peaks about seven days after ovulation,” explains Dr. Twogood. “Progesterone causes changes in the breast tissue, and that causes them to be more full and tender around this time.”",
+      "textSix": "Is there anything more annoying than those pre-period breakouts? If it’s any consolation, one study found that almost two-thirds (63%) of us experience acne flare-ups in the week before our periods, so you can at least take some comfort in knowing that you’re not alone. According to Dr. Twogood, that pesky progesterone is also responsible for wreaking havoc with your skin.”"
+    },
+    {
+      "id": 3,
+      "title": "Why is my period late?",
+      "textOne": "If you’ve used the period calculator, but your period hasn’t arrived as expected, or you’ve missed the date planned on your menstrual cycle calendar, then your period is probably late. This can be understandably distressing, but try not to worry. This isn’t necessarily a cause for concern. “In terms of how many days ‘late’ is considered abnormal depends on the individual,” explains Dr. Twogood. For example, if your period comes like clockwork every 28 days, then it might be considered late if it doesn’t arrive by 30 days. However, if your period is a little more variable and arrives every 28 to 31 days, then a period arriving on day 30 might not be late for you. “If periods are consistently late, irregular, or have no pattern to them, that’s a good reason for an evaluation [with your health care provider],” Dr. Twogood adds. ",
+      "textTwo": "As we’ve already seen, 14% to 25% of women have irregular menstrual cycles, so you’re certainly not alone if your period arrives late (or early). ",
+      "textThree": "Of course, there could be one obvious reason for a late period. If someone has had sex, “then a late period for them could mean a pregnancy and a reason to take a pregnancy test,” Dr. Twogood explains. Again, if your periods are late and irregular, it could be worth checking in with your health care provider."
+    },
+    {
+      "id": 4,
+      "title": "Period tracking with Flo",
+      "textOne": "As we’ve seen, it can be extremely helpful to use a period calculator to track your menstrual cycle. “It can be very helpful to gather data, especially if someone is concerned about their period,” adds Dr. Twogood. “When patients come to see me in the office for concerns about their period, it is helpful for me to see their period tracking to get a sense of patterns (or lack of) that they may not have noticed themself. It also helps to give data and numbers to a concern instead of saying, ‘It’s all over the place.’ The numbers can show OB-GYNs exactly what ‘all over the place’ means to you!”",
+      "textTwo":"Generally, your hCG levels will double every 48 hours in your first trimester, peaking at around 10 weeks. After that point, they’ll level off. However, hCG levels can differ from person to person, and Dr. Jones explains that detection of hCG levels can vary in very early pregnancy depending on when you take a test.  ",
+      "textThree": "So go ahead and get started using the period calculator tool and consider downloading the Flo app to discover more about your periods and your cycle.",
+      "textFour": "If you do a pregnancy test that comes back positive, your health care provider may also give you a blood test to check your hCG levels."
+    }
+  ],
+  "implantation": [
+    {
+      "id": 1,
+      "title": "How to use the implantation calculator",
+      "textOne": "Did you know that during every menstrual cycle, you have a fertile window — the six days when you’re most likely to get pregnant? During this time, your body releases an egg (this is called ovulation), and if it’s fertilized by a sperm, it may implant into the wall of your uterus and become an embryo. This is implantation in a nutshell and marks the 1st day of pregnancy. ",
+      "textTwo":"Knowing the date your last period started (when you had full flow), the date you may have ovulated, and the date that implantation may have happened gives you a better idea of when to take a pregnancy test. Trying for a baby really can feel like a numbers game. This is where Flo’s implantation calculator comes in. Keep reading to find out how it works plus everything else you need to know about implantation.",
+      "textThree": "Remember that implantation predictors, calendars, and fertility calculators can help you learn more about your most fertile days and when you may have conceived. But they are for informational purposes only and cannot and should not be used to prevent pregnancy. Menstrual periods are different from person to person and month to month. Results are estimates, and actual implantation can vary for everyone."
+    },
+    {
+      "id": 2,
+      "title": "How is your implantation date calculated?\nIf you know the day you ovulated ",
+      "textOne": "After your ovaries release an egg during ovulation, there is only a 12- to 24-hour period where it will remain viable. It will start to make its way down your uterine tube, and if it is met and fertilized by a sperm in that period, then it may implant in your uterine wall. This process can take six to 10 days and is described as ‘days past ovulation’ or DPO.",
+      "textTwo":"You may already track your cycle using an app like Flo and know the day that you ovulated. If this is the case, then all you need to do is input the day that you ovulated and add six to 10 days to find out when your egg may have implanted.",
+      "textThree":"Here’s what we mean: If you know you ovulated on day 18 of your cycle, then you’d figure out your implantation date by inputting 18 + (6 to 10 days) = potential implantation on day 24 to 28 of your cycle. If you’ve conceived naturally, without knowing when you ovulated, then it’s impossible to pinpoint the exact day that implantation may have occurred. However, this is slightly different if you’ve undergone in vitro fertilization (IVF). Keep reading to find out why. "
+    },
+    {
+      "id": 3,
+      "title": "If you don’t know the day you ovulated ",
+      "textOne": "If you aren’t sure what day you ovulated during your cycle, then you’ll need to figure that out before you can determine which day implantation may have happened. Don’t stress — you can do this by using an ovulation calculator or tracking your cycle using an app like Flo. ",
+      "texTwo": "Alternatively, you can estimate the day that you last ovulated by taking the date of your last period, adding how long your average cycle is, and subtracting 14. You might be curious where the number 14 comes from. The average menstrual cycle length is anywhere between 21 to 35 days long, and on average, the luteal phase is 14 days (hence subtracting 14 days). However, this can differ from person to person. Your cycle starts on the first day of your period and ends on the day before your next period. "
+    },
+    {
+      "id": 4,
+      "title": "Understanding implantation calculator results",
+      "textOne": "Once you’ve inputted the day you ovulated, plus the six- to 10-day range that it takes for your fertilized egg to travel down your uterine tubes, you’ll be left with a time frame of around four days when implantation may have happened. So, what does this mean?",
+      "textTwo":"“There are lots of ways to track how far along a pregnancy is,” says Dr. Jennifer Boyle, obstetrician and gynecologist at Massachusetts General Hospital, Massachusetts, US. “This can be done by tracking menstrual cycles and trying to notice when ovulation takes place. Knowing when implantation may have occurred can help someone know when to take their first pregnancy test.”",
+      "textThree": "“[The detection of] hCG levels can be negative in early pregnancy if they are tested too early,” she says. “This can be due to the level of detection of the test (if the test you take isn’t sensitive enough) or if [you take a test] too close to the time of ovulation.” This is because your body hasn’t produced enough hCG yet. ",
+      "textFour": "If you do a pregnancy test that comes back positive, your health care provider may also give you a blood test to check your hCG levels."
+    },
+    {
+      "id": 5,
+      "title": "What is implantation, and when does it happen?",
+      "textOne": "“Implantation is the term used to explain when a fertilized egg (sometimes called an embryo) attaches to your uterine lining. On average, implantation happens around six to 10 days after you’ve ovulated and the egg was fertilized. "
+    },
+    {
+      "id": 6,
+      "title": "How soon can you test for pregnancy after implantation?",
+      "textOne": "It’s hCG that many at-home pregnancy tests look for in your pee. If you’re thinking about taking a pregnancy test, then it’s key to know when your hCG levels might start showing up — and when they’ll be high enough to provide you with an accurate result.",
+      "textTwo": "“At the time of a missed period, if a person is pregnant, their hCG level should be high enough to be detected using a standard home pregnancy test,” says Dr. Boyle. “It’s hard to wait, but it’s even more stressful and confusing to get a result you are not sure about.”",
+      "textThree": "Studies have highlighted that tests taken on the first day that you miss your period can be considered to have 90% sensitivity at detecting hCG. This rises to 97% if you wait one week after you’ve missed your period. So generally speaking, the best time to test for pregnancy after implantation is on the first day of your missed period or after that point. If you have a pregnancy test that comes back positive, then your doctor may also do a blood test to check your hCG levels.  "
+    },
+    {
+      "id": 7,
+      "title": "How can I know if implantation was successful?",
+      "textOne": "Some people say they knew the day they got pregnant based on symptoms or signs they noticed around the days that implantation may have happened. While it can be fun to guess when you conceived, the only way to know if implantation was successful is by taking a pregnancy test. The best time to do this is after you’ve missed a period. Implantation symptoms aren’t medically recognized, but some people report feeling:",
+      "textTwo": "Implantation bleeding: This is light spotting or bleeding around two weeks after conception. This may come around the time of your period but will be lighter. You might mistake implantation bleeding for your period.",
+      "textThree": "Bloating: As your hormone levels rise at the start of pregnancy, you may experience some bloating.",
+      "textFour": "Cramping: Some people report feeling minor cramps during implantation.  ",
+      "textFive": "Fatigue: Following implantation, you may feel more tired than usual. Tiredness is a key symptom that many people experience throughout the 1st trimester. ",
+      "textSix": "You won’t likely hear your doctor talk about implantation symptoms. Instead, they may talk about any symptoms you have as early signs of pregnancy. You may also notice some similarities between early pregnancy symptoms and symptoms of premenstrual syndrome (PMS). Period bleeding lasts longer than spotting around implantation — around two to seven days. If you’re unsure if the symptoms you’re experiencing are PMS or pregnancy, then reach out to your doctor. "
+    }
+  ],
+  "pregnancyCalc": [
+    {
+      "id": 1,
+      "title": "How to use our pregnancy calculator",
+      "textOne": "Our pregnancy calculator uses some basic information to figure out how far along you are. All you need to do is input how many weeks and days pregnant you are, and the tool will do the rest.",
+      "textTwo":"Once you enter the data, you will get a personalized overview of your pregnancy in months so far. This will include a percentage of how far along you are, how many months pregnant you are, and which trimester you’re in. You’ll also be able to click through to an in-depth article that will tell you about what’s happening during that specific week of your pregnancy. Plus, if you’d like an idea of when your due date is likely to fall, you can use our due date calculator, too. Additionally, you can check out our implantation calculator to find out when the implantation might have occured. Clever, huh?"
+    },
+    {
+      "id": 2,
+      "title": "Week-by-week calendar",
+      "textOne": "Pregnancy is an exciting time filled with lots of change — for both your growing baby and your growing body, so you’ll no doubt have lots of questions. Those questions might include: What developmental milestones happen as the weeks go on? What symptoms can you expect and when? And what things should you be thinking about each step of the way? We’ve spoken to Flo experts to bring you the essential knowledge you need for your pregnancy, week by week. Simply scroll through our carousel below to find your week of pregnancy and learn more.",
+      "textTwo":"You may already track your cycle using an app like Flo and know the day that you ovulated. If this is the case, then all you need to do is input the day that you ovulated and add six to 10 days to find out when your egg may have implanted.",
+      "textThree":"Here’s what we mean: If you know you ovulated on day 18 of your cycle, then you’d figure out your implantation date by inputting 18 + (6 to 10 days) = potential implantation on day 24 to 28 of your cycle. If you’ve conceived naturally, without knowing when you ovulated, then it’s impossible to pinpoint the exact day that implantation may have occurred. However, this is slightly different if you’ve undergone in vitro fertilization (IVF). Keep reading to find out why. "
+    },
+    {
+      "id": 3,
+      "title": "What is a trimester?",
+      "textOne": "First up, let’s go over the basics. What exactly is a trimester? “A trimester represents the three sections of time periods of pregnancy,” explains Dr. White. “These periods represent the 1st, 2nd, and 3rd trimesters [up until you give birth].”"
+    },
+    {
+      "id": 4,
+      "title": "Understanding implantation calculator results",
+      "textOne": "Once you’ve inputted the day you ovulated, plus the six- to 10-day range that it takes for your fertilized egg to travel down your uterine tubes, you’ll be left with a time frame of around four days when implantation may have happened. So, what does this mean?",
+      "textTwo":"“There are lots of ways to track how far along a pregnancy is,” says Dr. Jennifer Boyle, obstetrician and gynecologist at Massachusetts General Hospital, Massachusetts, US. “This can be done by tracking menstrual cycles and trying to notice when ovulation takes place. Knowing when implantation may have occurred can help someone know when to take their first pregnancy test.”",
+      "textThree": "“[The detection of] hCG levels can be negative in early pregnancy if they are tested too early,” she says. “This can be due to the level of detection of the test (if the test you take isn’t sensitive enough) or if [you take a test] too close to the time of ovulation.” This is because your body hasn’t produced enough hCG yet. ",
+      "textFour": "If you do a pregnancy test that comes back positive, your health care provider may also give you a blood test to check your hCG levels."
+    },
+    {
+      "id": 5,
+      "title": "What is implantation, and when does it happen?",
+      "textOne": "“Implantation is the term used to explain when a fertilized egg (sometimes called an embryo) attaches to your uterine lining. On average, implantation happens around six to 10 days after you’ve ovulated and the egg was fertilized. "
+    },
+    {
+      "id": 6,
+      "title": "How soon can you test for pregnancy after implantation?",
+      "textOne": "It’s hCG that many at-home pregnancy tests look for in your pee. If you’re thinking about taking a pregnancy test, then it’s key to know when your hCG levels might start showing up — and when they’ll be high enough to provide you with an accurate result.",
+      "textTwo": "“At the time of a missed period, if a person is pregnant, their hCG level should be high enough to be detected using a standard home pregnancy test,” says Dr. Boyle. “It’s hard to wait, but it’s even more stressful and confusing to get a result you are not sure about.”",
+      "textThree": "Studies have highlighted that tests taken on the first day that you miss your period can be considered to have 90% sensitivity at detecting hCG. This rises to 97% if you wait one week after you’ve missed your period. So generally speaking, the best time to test for pregnancy after implantation is on the first day of your missed period or after that point. If you have a pregnancy test that comes back positive, then your doctor may also do a blood test to check your hCG levels.  "
+    },
+    {
+      "id": 7,
+      "title": "How can I know if implantation was successful?",
+      "textOne": "Some people say they knew the day they got pregnant based on symptoms or signs they noticed around the days that implantation may have happened. While it can be fun to guess when you conceived, the only way to know if implantation was successful is by taking a pregnancy test. The best time to do this is after you’ve missed a period. Implantation symptoms aren’t medically recognized, but some people report feeling:",
+      "textTwo": "Implantation bleeding: This is light spotting or bleeding around two weeks after conception. This may come around the time of your period but will be lighter. You might mistake implantation bleeding for your period.",
+      "textThree": "Bloating: As your hormone levels rise at the start of pregnancy, you may experience some bloating.",
+      "textFour": "Cramping: Some people report feeling minor cramps during implantation.  ",
+      "textFive": "Fatigue: Following implantation, you may feel more tired than usual. Tiredness is a key symptom that many people experience throughout the 1st trimester. ",
+      "textSix": "You won’t likely hear your doctor talk about implantation symptoms. Instead, they may talk about any symptoms you have as early signs of pregnancy. You may also notice some similarities between early pregnancy symptoms and symptoms of premenstrual syndrome (PMS). Period bleeding lasts longer than spotting around implantation — around two to seven days. If you’re unsure if the symptoms you’re experiencing are PMS or pregnancy, then reach out to your doctor. "
+    }
+  ],
+  "due": [
+    {
+      "id": 1,
+      "title": "How far along am I?",
+      "textOne": "One of the first questions you’ll probably have after discovering that you’re pregnant is “How pregnant am I?” Interestingly, there are two ways to measure the age of a baby during pregnancy — gestational age vs fetal age — but health care providers generally use gestational age only because it’s deemed more accurate.",
+      "textTwo":"More on those below, but when you know how far into your pregnancy you are, you can get a clearer idea of your expected date of delivery. This is another name for a due date, meaning your EDD is the approximate date when labor is expected to begin. As we’ll explain if you scroll down, this date is really just an estimate, so you can expect to go into labor anytime in the two weeks before and after your due date.",
+      "textThree": "How far along am I? Gestational age",
+      "textFour": "How far along am I? Gestational To track pregnancy and calculate a due date, doctors use gestational age. Gestation is how long a person is pregnant in weeks, and gestational age is measured from the last menstrual period (LMP) — the first day of your last period — to the current date in weeks.",
+      "textFive": "In general, pregnancies last anywhere from 38 to 42 weeks (or around 280 days). If a baby is born before 37 weeks, they are considered premature."
+    },
+    {
+      "id": 2,
+      "title": "How is due date calculated?",
+      "textOne": "Lots of us assume that a pregnancy is exactly nine months long, but that’s not the case. To work out how to calculate pregnancy weeks, there’s a little more to it.",
+      "textTwo":"“The nine months of a pregnancy are actually 40 weeks,” Dr. Charlsie Celestine, Flo board member, obstetrician, and gynecologist (OB-GYN), explains. “The due date is 40 weeks from the first day of your last menstrual period. But some women can go beyond that to 41 weeks.”",
+      "textThree":"In fact, the first thing you’ll likely notice when you let your health care provider know you are pregnant is that pregnancy is calculated in weeks rather than months. And your baby’s estimated due date falls on the 40th week, when you’ll actually be around 10 months pregnant. "
+    },
+    {
+      "id": 3,
+      "title": "How to calculate due date if you’ve had IVF",
+      "textOne": "If you’ve had IVF, then your baby’s due date is calculated slightly differently, depending on:\n\n",
+      "textTwo": "Whether you had a fresh or frozen embryo transfer",
+      "textThree": "If you had a frozen transfer, the age of the embryo when it was frozen. For example, if it was frozen on day three, then you will be two weeks and three days pregnant on the date of transfer. For embryos frozen on day five, it’s two weeks and five days pregnant on the date of transfer. Your clinic will be able to explain more."
+    },
+    {
+      "id": 4,
+      "title": "How accurate is due date?",
+      "textOne": "There’s a lot that centers around it, so you’re probably wondering how likely it is that you’ll give birth on your due date. “The accuracy of the due date depends on how early in the pregnancy it was calculated and how predictable your menstrual cycle is,” Dr. Celestine explains.",
+      "textTwo":"“The earlier you see an OB-GYN to establish care for the pregnancy, the better, because the due date [from an ultrasound scan] is more accurate early in pregnancy compared to later. It’s rare for a baby to be born exactly on their due date [only around 4% of babies are]. Usually, delivery happens within a week before or after. But there are many babies also born prematurely, [along with] medical reasons why you might need to be induced for labor early, so it really depends on the individual.”\n\n"
+    },
+    {
+      "id": 5,
+      "title": "What day did I get pregnant?",
+      "textOne": "As Dr. Celestine explains, it’s hard to predict the exact day you got pregnant (unless you’ve successfully conceived after fertility treatment).",
+      "textTwo":"“It’s all an estimate because it depends on the day you ovulated,” she says. “If you know your cycle length and it’s always the same, then usually midway through your cycle prior to pregnancy is when conception occurred.”"
+    },
+    {
+      "id": 6,
+      "title": "Can my due date change?",
+      "textOne": "Lots of people will calculate their due date as one of the first things they do after finding out they’re pregnant. And that’s useful for having a rough idea of when your baby will arrive, but it’s worth noting that this should be confirmed by your health care provider. They will use information about your last menstrual period, plus your first ultrasound, to work out your EDD, and once this has been calculated, it’s rare for your due date to change.",
+      "textTwo":"It’s so unusual for the due date to change after your first ultrasound scan because knowing the gestational age holds a lot of importance in monitoring the health of a pregnancy. “There are certain tests that need to be performed at certain gestational ages during a pregnancy,” Dr. Celestine explains. “Knowing how far along you are is also important for following the growth of the baby, when we can expect to deliver, and much, much more.”"
+    },
+    {
+      "id": 7,
+      "title": "Can I plan my due date?",
+      "textOne": "Some people like to be organized, and there’s nothing wrong with that. But it can be quite tricky to plan a due date because there are so many factors at play with conception that you (and your partner) don’t have control over.",
+      "textTwo":"Nobody ever knows for certain when they will conceive. Even if you pinpoint your fertile window and have plenty of unprotected sex during that time, you still won’t know for certain whether or not that will be the month you get pregnant. That’s because so much of it is up to chance. For context, 45% of young couples (under 35) will conceive after three cycles, and 65% will get pregnant after six cycles. So while you might want to plan to have a baby in a certain month, all you can really do is try.",
+      "textThree":"And even if you do manage to conceive at a time that gives you your ideal due date, remember that your EDD is just an estimate. Babies come on their own schedule. While the “average” pregnancy lasts 40 weeks from the day of the last menstrual period, it is normal for babies to come anywhere from 37 to 42 weeks, so it’s best not to focus too much on a specific due date. "
+    },
+    {
+      "id": 8,
+      "title": "Due date tracking with Flo",
+      "textOne": "Whether you’re currently pregnant or trying to work out when you’d be due if you got pregnant today, Flo can help. Use our Trying to Conceive mode to optimize your chances of getting pregnant by tracking your periods, which can help to identify your most fertile days. Alternatively, switch to Pregnancy Mode for our pregnancy tracker, where you can get week-by-week updates for both your body and your baby."
+    }
+  ],
+  "ivf": [
+    {
+      "id": 1,
+      "title": "How many weeks pregnant are you?",
+      "textOne": "Typically, pregnancy lasts for about 40 weeks, or 280 days. If you conceive naturally, the estimated due date is usually determined based on the first day of your last period, not from the date of conception. Why is this?",
+      "textTwo":"The reason is that most people don’t know exactly when they ovulated or conceived. Someone with a regular 28-day menstrual cycle usually ovulates around day 14. ",
+      "textThree": "However, this date isn’t 100-percent accurate, as ovulation can occur earlier or later. This is why a due date is just a rough estimate of the day the baby is likely to arrive. "
+    },
+    {
+      "id": 2,
+      "title": "Due date calculation for IVF pregnancies",
+      "textOne": "In-vitro fertilization (IVF) is the only case in which your health care provider will know exactly when you conceived. Enter this date in the “Date of transfer” field of the calculator.",
+      "textTwo":"You can calculate your due date by using different formulas depending on the type of IVF you had. Choose your IVF type in the “Type of transfer” field of the calculator. ",
+      "textThree":"This is how Flo’s calculator formulas work based on your IVF type (these formulas are set automatically in the calculator for each option you choose):",
+      "textFour":"IVF with own eggs (with or without ICSI) — Egg retrieval date + 266 days (or 38 weeks)",
+      "textFive":"IVF with fresh donor egg cycle (with or without ICSI) — Egg retrieval date + 266 days (or 38 weeks)",
+      "textSix":"Fresh donor embryo cycle — Egg retrieval date + 266 days (or 38 weeks)",
+      "textSeven":"3 day FET — Transfer date + 266 days (or 38 weeks) – 3 days (for embryos)*"
+    },
+    {
+      "id": 3,
+      "title": "How accurate are IVF due dates?",
+      "textOne": "Due date calculations may vary regardless of whether you conceived naturally or via IVF. Even with IVF and ultrasound measurements, no due date is a guarantee. It’s just a way to provide a window of time in which you are likely to go into labor. ",
+      "textTwo": "Try some of Flo's other online tools, including our due date calculator (for non-IVF pregnancies), hCG calculator, our pregnancy test calculator, and our period calculator."
+    }
+  ],
+  "ultrasound": [
+    {
+      "id": 1,
+      "title": "How to determine pregnancy due date using ultrasound results",
+      "textOne": "Ultrasound (or sonogram) scans are totally painless and safe. They use high-frequency sound waves to get an image of the fetus to check fetal development and the progress of your pregnancy.",
+      "textTwo":"The ultrasound can detect the fetus’s heartbeat around the 6th week, and this is one of the ways your health care provider can tell how far along you are in your pregnancy.",
+      "textThree": "The first ultrasound, done between 10 and 14 weeks, is considered the most accurate method of estimating when you conceived. "
+    },
+    {
+      "id": 2,
+      "title": "More About Due Date Calculations",
+      "textOne": "The Rule of Eights: Due Date by last menstrual period or ultrasound?",
+      "textTwo":"You can calculate your due date by last menstrual period (LMP) or by ultrasound, and the two calculation results might be different. How do you determine which is more accurate?",
+      "textThree":"To determine an accurate due date, you can use the “Rule of Eights.”",
+      "textFour":"1. Calculate the difference in due dates. First, determine the difference in days between the LMP and ultrasound due dates. Later, you’ll compare that number to the margin of error, which is calculated by using the Rule of Eights.",
+      "textFive":"2. Calculate the margin of error. The Rule of Eights is based on a pretty consistent 8 percent margin of error found at any gestational age (GA). You can use a simple formula to figure it out: ",
+      "textSix":"3. Compare the results"
+    },
+    {
+      "id": 3,
+      "title": "Can your due date change?",
+      "textOne": "If you aren’t sure what day you ovulated during your cycle, then you’ll need to figure that out before you can determine which day implantation may have happened. Don’t stress — you can do this by using an ovulation calculator or tracking your cycle using an app like Flo. ",
+      "texTwo": "Alternatively, you can estimate the day that you last ovulated by taking the date of your last period, adding how long your average cycle is, and subtracting 14. You might be curious where the number 14 comes from. The average menstrual cycle length is anywhere between 21 to 35 days long, and on average, the luteal phase is 14 days (hence subtracting 14 days). However, this can differ from person to person. Your cycle starts on the first day of your period and ends on the day before your next period. "
+    }
+  ],
+  "cycle": [
+    {
+      "id": 1,
+      "image": "https://flo.health/uploads/media/sulu-846x-inset/08/10088-a%20woman%20logging%20sex%20on%20her%20period%20tracker.jpg?v=1-0",
+      "title": "Sexual health",
+      "subtitle": "Sex and your menstrual cycle: Are they connected?"
+    },
+    {
+      "id": 2,
+      "image": "https://flo.health/uploads/media/sulu-846x-inset/08/10088-a%20woman%20logging%20sex%20on%20her%20period%20tracker.jpg?v=1-0",
+      "title": "Sexual health",
+      "subtitle": "Sex and your menstrual cycle: Are they connected?"
+    },
+    {
+      "id": 3,
+      "image": "https://flo.health/uploads/media/sulu-846x-inset/08/10088-a%20woman%20logging%20sex%20on%20her%20period%20tracker.jpg?v=1-0",
+      "title": "Sexual health",
+      "subtitle": "Sex and your menstrual cycle: Are they connected?"
+    },
+    {
+      "id": 4,
+      "image": "https://flo.health/uploads/media/sulu-846x-inset/08/10088-a%20woman%20logging%20sex%20on%20her%20period%20tracker.jpg?v=1-0",
+      "title": "Sexual health",
+      "subtitle": "Sex and your menstrual cycle: Are they connected?"
+    },
+    {
+      "id": 5,
+      "image": "https://flo.health/uploads/media/sulu-846x-inset/08/10088-a%20woman%20logging%20sex%20on%20her%20period%20tracker.jpg?v=1-0",
+      "title": "Sexual health",
+      "subtitle": "Sex and your menstrual cycle: Are they connected?"
+
     }
   ]
 }

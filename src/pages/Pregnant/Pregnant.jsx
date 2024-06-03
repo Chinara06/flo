@@ -3,7 +3,7 @@ import {Link} from "react-router-dom"
 
 const Pregnant = () => {
     return (
-        <section className="tracking">
+        <section className="pregnant">
             <section className={"content"}>
                 <div className="content__row">
                     <div className="content__left">
