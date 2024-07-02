@@ -1,6 +1,6 @@
 .library{
   &__row{
-    padding: 100px 60px;
+    padding: 100px 50px;
   }
   &__naw{
     padding: 0 200px 100px;
@@ -11,7 +11,7 @@
     line-height: 1;
     text-align: center;
     align-items: center;
-    margin-bottom: 60px;
+    margin-bottom: 10px;
   }
   &__find{
     position: relative;
@@ -117,9 +117,9 @@
       }
       &__cards{
         display: flex;
-        justify-content: space-between;
         flex-wrap: wrap;
-        column-gap: 10px;
+        justify-content: space-around;
+        align-items: center;
       }
       &__card{
         display: flex;
@@ -152,6 +152,7 @@
         font-weight: 400;
         line-height: 25.2px;
         color: black;
+
       }
       &__text:hover{
         text-decoration: underline;

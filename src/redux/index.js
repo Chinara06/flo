@@ -11,6 +11,8 @@ import due from "./due/due"
 import ivf from "./ivf/ivf"
 import ultrasound from "./ultrasound/ultrasound";
 import library from "./library/library";
+import contact from "./contact/contact";
+import auth from "./auth/auth";
 export const store = configureStore({
     reducer:{
         team,
@@ -24,6 +26,8 @@ export const store = configureStore({
         due,
         ivf,
         ultrasound,
-        library
+        library,
+        contact,
+        auth
     }
 })

@@ -1,83 +1,109 @@
-import React, {useEffect} from 'react';
-import {Link} from "react-router-dom";
-import {useDispatch, useSelector} from "react-redux";
-import { AiOutlineMinus } from "react-icons/ai";
-import { FiPlus } from "react-icons/fi";
-import {getPeriod} from "../../redux/period/period";
+import React, { useState, useEffect } from 'react';
+import { useSelector, useDispatch } from 'react-redux';
+import { getPeriod } from '../../redux/period/period'; // Make sure to replace './actions' with the actual path to your actions
+import { AiOutlineMinus } from 'react-icons/ai';
+import { FiPlus } from 'react-icons/fi';
+import { Link } from 'react-router-dom';
 
 const Period = () => {
-    const {data} = useSelector(store => store.period);
+    const { data } = useSelector(store => store.period);
     const dispatch = useDispatch();
+
     useEffect(() => {
-        dispatch(getPeriod())
-    },[])
-    return (
-        <section className={"ovulation"}>
-            <div className="container">
-                <div className="ovulation__left">
-                    <div className="ovulation__row">
-                        <div className="ovulation__texts">
-                            <h2 className="ovulation__title">
-                                Period calculator: Predict when your next period will arrive
-                            </h2>
-                            <p className="ovulation__desc">
-                                Being able to predict when your next period will arrive can save you a lot of hassle and help you to understand your own menstrual cycle. Predict your next period now with Flo’s easy-to-use period calculator.
-                            </p>
-                        </div>
+        dispatch(getPeriod());
+    }, [dispatch]);
+
+    const [lastPeriodDate, setLastPeriodDate] = useState("");
+    const [cycleLength, setCycleLength] = useState(28);
+    const [nextPeriodDate, setNextPeriodDate] = useState("");
+
+    const handleDateChange = (event) => {
+        setLastPeriodDate(event.target.value);
+    };
+
+    const handleCycleLengthChange = (event) => {
+        setCycleLength(Number(event.target.value));
+    };
+
+    const calculateNextPeriod = () => {
+        if (lastPeriodDate && cycleLength) {
+            const lastPeriod = new Date(lastPeriodDate);
+            const nextPeriod = new Date(lastPeriod.getTime() + cycleLength * 24 * 60 * 60 * 1000);
+            setNextPeriodDate(nextPeriod.toISOString().split('T')[0]);
+        }
+    };
+return (
+    <section className={"ovulation"}>
+        <div className="container">
+            <div className="ovulation__left">
+                <div className="ovulation__row">
+                    <div className="ovulation__texts">
+                        <h2 className="ovulation__title">
+                            Period calculator: Predict when your next period will arrive
+                        </h2>
+                        <p className="ovulation__desc">
+                            Being able to predict when your next period will arrive can save you a lot of hassle and help you to understand your own menstrual cycle. Predict your next period now with Flo’s easy-to-use period calculator.
+                        </p>
                     </div>
-                    <div className="ovulation__right">
-                        <div className="ovulation__right-img">
-                            <img src="https://flo.health/cdn-cgi/image/quality=85,format=auto/uploads/media/sulu-750x-inset/07/9507-01_1006x755.jpg?v=1-0" alt="#" width={"374"} height={"280"}/>
-                        </div>
+                </div>
+                <div className="ovulation__right">
+                    <div className="ovulation__right-img">
+                        <img src="https://flo.health/cdn-cgi/image/quality=85,format=auto/uploads/media/sulu-750x-inset/07/9507-01_1006x755.jpg?v=1-0" alt="#" width={"374"} height={"280"} />
                     </div>
                 </div>
             </div>
-            <section className="data">
-                <div className="data__row">
-                    <div className="data__left">
-                        <div className="data__panel">
-                            <p className="data__desc">
-                                Updated <span>29 September 2023 </span> 2022 | Published <span>27 September 2022</span>
-                            </p>
-                            <div className="data__text">
-                                <img src="https://flo.health/cdn-cgi/image/quality=85,format=auto/uploads/media/sulu-48x48/04/4724-Boyle_Jennifer_Light.png?v=1-0" alt="#" width={"24"} height={"24"}/>
-                                Medically reviewed by <span>  Dr. Amanda Kallen,</span>,Associate professor of obstetrics, gynecology, and reproductive endocrinology, Yale University School of Medicine, Connecticut, US
-                            </div>
-                            <p className="data__subtitle">
-                                Written by <span>Sarah Biddlecombe</span>
-                            </p>
+        </div>
+        <section className="data">
+            <div className="data__row">
+                <div className="data__left">
+                    <div className="data__panel">
+                        <p className="data__desc">
+                            Updated <span>29 September 2023</span> | Published <span>27 September 2022</span>
+                        </p>
+                        <div className="data__text">
+                            <img src="https://flo.health/cdn-cgi/image/quality=85,format=auto/uploads/media/sulu-48x48/04/4724-Boyle_Jennifer_Light.png?v=1-0" alt="#" width={"24"} height={"24"} />
+                            Medically reviewed by <span>Dr. Amanda Kallen</span>, Associate professor of obstetrics, gynecology, and reproductive endocrinology, Yale University School of Medicine, Connecticut, US
                         </div>
-                        <div className="data__period">
-                            <div className="data__period-left">
-                                <p className="data__period-subtitle">
-                                    The first day of your last period
-                                </p>
+                        <p className="data__subtitle">
+                            Written by <span>Sarah Biddlecombe</span>
+                        </p>
+                    </div>
+                    <div className="data__period">
+                        <div className="data__period-left">
+                            <p className="data__period-subtitle">
+                                The first day of your last period
+                            </p>
+                            <label>
+                                <input type="date" value={lastPeriodDate} onChange={handleDateChange} />
+                            </label>
+                        </div>
+                        <div className="data__period-right">
+                            <p className="data__period-subtitle">
+                                Average cycle length (days)
+                            </p>
+                            <div className="data__period-field">
+                                <div className="data__period-minus" onClick={() => setCycleLength(cycleLength > 1 ? cycleLength - 1 : 1)}>
+                                    <span><AiOutlineMinus /></span>
+                                </div>
                                 <label>
-                                    <input type="date" id="start" name="trip-start" value="2024-05-21" min="2024-05-21" max="2025-05-21" />
+                                    <input type="number" value={cycleLength} onChange={handleCycleLengthChange} min="1" />
                                 </label>
-                            </div>
-                            <div className="data__period-right">
-                                <p className="data__period-subtitle">
-                                    Average cycle length (days)
-                                </p>
-                                <div className="data__period-field">
-                                    <div className="data__period-minus">
-                                        <span><AiOutlineMinus /></span>
-                                    </div>
-                                    <label>
-                                        <input type="number"/>
-                                    </label>
-                                    <div className="data__period-plus">
-                                        <span><FiPlus /></span>
-                                    </div>
+                                <div className="data__period-plus" onClick={() => setCycleLength(cycleLength + 1)}>
+                                    <span><FiPlus /></span>
                                 </div>
                             </div>
                         </div>
-                        <div className="data__button">
-                            <button className="data__btn">
-                                See results
-                            </button>
+                    </div>
+                    <div className="data__button">
+                        <button className="data__btn" onClick={calculateNextPeriod}>
+                            See results
+                        </button>
+                    </div>
+                    {nextPeriodDate && (
+                        <div className="data__result">
+                            <p>Your next period is expected to start on: <strong>{nextPeriodDate}</strong></p>
                         </div>
+                    )}
                         <div className="download">
                             <div className="download__row">
                                 <div className="download__banner">
@@ -190,7 +216,7 @@ const Period = () => {
                     </div>
 
                     <div className="data__right">
-                        <div className="data__right-lists">
+                        <div className="data__right-lists active">
                             <h4 className="data__right-title">
                                 IN THIS ARTICLE
                             </h4>
@@ -210,7 +236,6 @@ const Period = () => {
                                     </li>
                                 </ol>
                             </div>
-
                         </div>
                     </div>
                 </div>

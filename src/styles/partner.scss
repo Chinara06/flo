@@ -301,6 +301,7 @@
       padding: 100px 0 70px;
       text-align: center;
       align-items: center;
+      margin-bottom: 80px;
     }
     &__title{
       font-size: 32px;
@@ -339,61 +340,6 @@
     }
     &__text{
       margin-bottom: 7px;
-    }
-  }
-  .references{
-    background: #f2f2f2;
-    margin: 100px 0;
-    max-width: 1064px;
-    border-radius: 10px;
-    color: #000;
-    font-size: 16px;
-    line-height: 28.8px;
-    overflow: hidden;
-
-    &__head{
-      align-items: center;
-      cursor: pointer;
-      display: flex;
-      justify-content: space-between;
-      padding: 24px;
-      position: relative;
-    }
-    &__title{
-      color: #000;
-      font-size: 16px;
-      font-weight: 700;
-      letter-spacing: -.32px;
-      line-height: 24px;
-    }
-    span{
-      svg{
-        display: block;
-        fill: #e4d7d7;
-      }
-    }
-    &__text{
-      color: #4e5b73;
-      font-size: 16px;
-      font-weight: 400;
-      letter-spacing: -.32px;
-      line-height: 24px;
-      padding: 24px;
-      position: relative;
-      float: left;
-    }
-    &__actives{
-      display: none;
-    }
-    &__active:hover > p {
-      display: initial;
-    }
-    &__spans{
-      background-color: transparent;
-      color: #000000;
-    }
-    &__span{
-      color: #000000;
     }
   }
 }

@@ -1,17 +1,52 @@
-import React, {useEffect} from 'react';
+import React, {useEffect,useState} from 'react';
 import {Link} from "react-router-dom";
 import {useDispatch, useSelector} from "react-redux";
 import {getPregnancyCalc} from "../../redux/pregnancyCalc/pregnancyCalc";
 import { AiOutlineMinus } from "react-icons/ai";
 import { FiPlus } from "react-icons/fi";
 const PregnancyCalc = () => {
-    const {data} = useSelector(store => store.pregnancyCalc);
+    const { data } = useSelector(store => store.pregnancyCalc);
     const dispatch = useDispatch();
+
     useEffect(() => {
-        dispatch(getPregnancyCalc())
-    },[])
+        dispatch(getPregnancyCalc());
+    }, [dispatch]);
+
+    const [cycleLength, setCycleLength] = useState(28); // default average cycle length
+    const [lastPeriod, setLastPeriod] = useState(""); // state for the last period date
+    const [results, setResults] = useState(null); // state for results
+
+    const handleCycleLengthChange = (e) => {
+        const value = Math.max(0, parseInt(e.target.value, 10)); // Ensure positive values
+        setCycleLength(value);
+    };
+
+    const handleLastPeriodChange = (e) => {
+        setLastPeriod(e.target.value);
+    };
+
+    const decrementCycleLength = () => {
+        setCycleLength(prevLength => Math.max(0, prevLength - 1));
+    };
+
+    const incrementCycleLength = () => {
+        setCycleLength(prevLength => prevLength + 1);
+    };
+
+    const calculatePregnancy = () => {
+        if (lastPeriod) {
+            const lastPeriodDate = new Date(lastPeriod);
+            const dueDate = new Date(lastPeriodDate);
+            dueDate.setDate(dueDate.getDate() + 280); // 280 days from the first day of the last period
+
+            setResults({
+                pregnancyStartDate: lastPeriodDate.toDateString(),
+                dueDate: dueDate.toDateString()
+            });
+        }
+    };
     return (
-        <section className={"ovulation"}>
+        <section className="ovulation">
             <div className="container">
                 <div className="ovulation__left">
                     <div className="ovulation__row">
@@ -26,7 +61,7 @@ const PregnancyCalc = () => {
                     </div>
                     <div className="ovulation__right">
                         <div className="ovulation__right-img">
-                            <img src="https://flo.health/cdn-cgi/image/quality=85,format=auto/uploads/media/sulu-750x-inset/02/9072-Woman%20looking%20at%20a%20calendar%20showing%20days%20of%20pregnancy%2001_1006x755.jpg?v=1-0" alt="#" width={"374"} height={"280"}/>
+                            <img src="https://flo.health/cdn-cgi/image/quality=85,format=auto/uploads/media/sulu-750x-inset/02/9072-Woman%20looking%20at%20a%20calendar%20showing%20days%20of%20pregnancy%2001_1006x755.jpg?v=1-0" alt="#" width={"374"} height={"280"} />
                         </div>
                     </div>
                 </div>
@@ -39,8 +74,8 @@ const PregnancyCalc = () => {
                                 Updated <span>29 September 2023 </span> 2022 | Published <span>27 September 2022</span>
                             </p>
                             <div className="data__text">
-                                <img src="https://flo.health/cdn-cgi/image/quality=85,format=auto/uploads/media/sulu-48x48/04/5474-lp_image_Light.png?v=1-0" alt="#" width={"24"} height={"24"}/>
-                                Medically reviewed by <span> Dr. Sara Twogood,</span>,Associate professor of obstetrics, gynecology, and reproductive endocrinology, Yale University School of Medicine, Connecticut, US
+                                <img src="https://flo.health/cdn-cgi/image/quality=85,format=auto/uploads/media/sulu-48x48/04/5474-lp_image_Light.png?v=1-0" alt="#" width={"24"} height={"24"} />
+                                Medically reviewed by <span> Dr. Sara Twogood,</span>, Associate professor of obstetrics, gynecology, and reproductive endocrinology, Yale University School of Medicine, Connecticut, US
                             </div>
                             <p className="data__subtitle">
                                 Written by <span> Sarah Biddlecombe</span>
@@ -52,7 +87,7 @@ const PregnancyCalc = () => {
                                     The first day of your last period
                                 </p>
                                 <label>
-                                    <input type="date" id="start" name="trip-start" value="2024-05-21" min="2024-05-21" max="2025-05-21" />
+                                    <input type="date" value={lastPeriod} onChange={handleLastPeriodChange} />
                                 </label>
                             </div>
                             <div className="data__period-right">
@@ -60,23 +95,29 @@ const PregnancyCalc = () => {
                                     Average cycle length (days)
                                 </p>
                                 <div className="data__period-field">
-                                    <div className="data__period-minus">
+                                    <div className="data__period-minus" onClick={decrementCycleLength}>
                                         <span><AiOutlineMinus /></span>
                                     </div>
                                     <label>
-                                        <input type="number"/>
+                                        <input type="number" value={cycleLength} onChange={handleCycleLengthChange} />
                                     </label>
-                                    <div className="data__period-plus">
+                                    <div className="data__period-plus" onClick={incrementCycleLength}>
                                         <span><FiPlus /></span>
                                     </div>
                                 </div>
                             </div>
                         </div>
                         <div className="data__button">
-                            <button className="data__btn">
+                            <button className="data__btn" onClick={calculatePregnancy}>
                                 See results
                             </button>
                         </div>
+                        {results && (
+                            <div className="data__result">
+                                <p>Estimated Pregnancy Start Date: {results.pregnancyStartDate}</p>
+                                <p>Estimated Due Date: {results.dueDate}</p>
+                            </div>
+                        )}
                         <div className="download">
                             <div className="download__row">
                                 <div className="download__banner">
@@ -191,7 +232,7 @@ const PregnancyCalc = () => {
                     </div>
 
                     <div className="data__right">
-                        <div className="data__right-lists">
+                        <div className="data__right-lists active">
                             <h4 className="data__right-title">
                                 IN THIS ARTICLE
                             </h4>

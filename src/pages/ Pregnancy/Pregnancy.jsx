@@ -223,64 +223,6 @@ const Pregnancy = () => {
                     </div>
                 </div>
             </section>
-
-
-            <div className="container">
-                <div className="references">
-                    <div className="references__head">
-                        <h3 className="references__title">
-                            References
-                        </h3>
-                        <span>
-                        <svg role="img" width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M16.59 9.09009L12 13.6701L7.41 9.09009L6 10.5001L12 16.5001L18 10.5001L16.59 9.09009Z" fill="black" fill-opacity="0.5"></path>
-                        </svg>
-                    </span>
-                    </div>
-                    <div className="references__actives">
-                        <div className="references__active">
-                            <p className={"references__text"}>
-                        <span className={"references__spans"}>
-                            1.
-                        </span>
-                                <span className={"references__span"}>
-                            Survey of 500 US obstetricians and gynecologists, DRG (2021)
-                        </span>
-                                <br/>
-                                <span className={"references__spans"}>
-                            2.
-                        </span>
-                                <span className={"references__span"}>
-                            Total app downloads
-                        </span>
-                                <br/>
-                                <span className={"references__spans"}>
-                            3.
-                        </span>
-                                <span className={"references__span"}>
-                             2,000 people surveyed in 2021
-                        </span>
-                                <br/>
-                                <span className={"references__spans"}>
-                            4.
-                        </span>
-                                <span className={"references__span"}>
-                             2,500 people surveyed in 2022
-                        </span>
-                                <br/>
-                                <span className={"references__spans"}>
-                            5.
-                        </span>
-                                <span className={"references__span"}>
-                            Monthly active users, as of Feb 2024
-                        </span>
-                                <br/>
-                            </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
         </section>
     );
 };

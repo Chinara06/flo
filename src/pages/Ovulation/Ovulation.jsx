@@ -6,51 +6,39 @@ import {useDispatch, useSelector} from "react-redux";
 import {getText} from "../../redux/text/text";
 
 const Ovulation = () => {
-    const {data} = useSelector(store => store.text);
+    const { data } = useSelector(store => store.text);
     const dispatch = useDispatch();
-    const [newDate,setNewDate] = useState("")
-    const [newDateAdd,setNewDateAdd] = useState("")
-    const [date,setDate] = useState("")
-    const [count,setCount] = useState(20)
-    const [dataV,setDataV] = useState(0)
+    const [newDate, setNewDate] = useState("");
+    const [newDateAdd, setNewDateAdd] = useState("");
+    const [date, setDate] = useState("");
+    const [count, setCount] = useState(28); // Default cycle length set to 28 days
+    const [dataV, setDataV] = useState("");
 
     useEffect(() => {
-        dispatch(getText())
-        let date = new Date();
+        dispatch(getText());
+        const currentDate = new Date();
+        const year = currentDate.getFullYear();
+        const month = (currentDate.getMonth() + 1).toString().padStart(2, '0');
+        const day = currentDate.getDate().toString().padStart(2, '0');
 
-        let year = date.getFullYear();
+        setNewDate(`${year - 1}-${month}-${day}`);
+        setNewDateAdd(`${year + 1}-${month}-${day}`);
+        setDate(`${year}-${month}-${day}`);
+    }, [dispatch]);
 
-        let month = date.getMonth();
-
-        let day = date.getDate();
-
-        month = month < 10 ? '0' + month : month;
-        day = day < 10 ? '0' + day : day;
-        setNewDate(`${year-1}-${month}-${day}`);
-        setNewDateAdd(`${year+1}-${month}-${day}`);
-        setDate(`${year}-${month}-${day}`)
-
-    },[]);
-    const dataVs = (lastPeriodDate, averageCycleLength) =>  {
-
+    const calculateOvulation = (lastPeriodDate, averageCycleLength) => {
         const lastPeriod = new Date(lastPeriodDate);
-        const nextPeriodDate = new Date(lastPeriod.getTime() + averageCycleLength * 24 * 60 * 60 * 1000);
+        lastPeriod.setDate(lastPeriod.getDate() + averageCycleLength - 14);
+        setDataV(lastPeriod.toISOString().split('T')[0]);
+    };
 
-        // Поскольку добавление дней через getTime может быть неочевидным,
-        // мы можем использовать метод setDate для более четкого вычисления:
-        nextPeriodDate.setDate(lastPeriod.getDate() + averageCycleLength);
-
-        setDataV(nextPeriodDate.toISOString().split('T')[0])
-    }
     return (
-        <section className={"ovulation"}>
+        <section className="ovulation">
             <div className="container">
                 <div className="ovulation__left">
-                <div className="ovulation__row">
+                    <div className="ovulation__row">
                         <div className="ovulation__texts">
-                            <h2 className="ovulation__title">
-                                Ovulation calculator: Figure out your most fertile days
-                            </h2>
+                            <h2 className="ovulation__title">Ovulation calculator: Figure out your most fertile days</h2>
                             <p className="ovulation__desc">
                                 Knowing when you’re ovulating helps you work out when you could get pregnant. Discover when your fertile window is with Flo’s easy-to-use ovulation calculator.
                             </p>
@@ -58,57 +46,66 @@ const Ovulation = () => {
                     </div>
                     <div className="ovulation__right">
                         <div className="ovulation__right-img">
-                            <img src="https://flo.health/uploads/media/sulu-750x-inset/02/9502-01_1006x755.jpg?v=1-0" alt="#" width={"374"} height={"280"}/>
+                            <img src="https://flo.health/uploads/media/sulu-750x-inset/02/9502-01_1006x755.jpg?v=1-0" alt="#" width="374" height="280" />
                         </div>
                     </div>
                 </div>
             </div>
-                <section className="data">
-                    <div className="data__row">
-                        <div className="data__left">
-                            <div className="data__panel">
-                                <p className="data__desc">
-                                    Updated <span>29 September</span> 2023 | Published <span>17 June 2022</span>
-                                </p>
-                                <div className="data__text">
-                                    <img src="https://flo.health/uploads/media/sulu-48x48/08/5438-Charlsie%20Celestine%2C%20MD.png?v=1-0" alt="#" width={"24"} height={"24"}/>
-                                    Medically reviewed by <span>Dr. Charlsie Celestine</span>, Obstetrician and gynecologist, New Jersey, US
-                                </div>
-                                <p className="data__subtitle">
-                                    Written by <span> Catriona Harvey-Jenner</span>
-                                </p>
+            <section className="data">
+                <div className="data__row">
+                    <div className="data__left">
+                        <div className="data__panel">
+                            <p className="data__desc">
+                                Updated <span>29 September</span> 2023 | Published <span>17 June 2022</span>
+                            </p>
+                            <div className="data__text">
+                                <img src="https://flo.health/uploads/media/sulu-48x48/08/5438-Charlsie%20Celestine%2C%20MD.png?v=1-0" alt="#" width="24" height="24" />
+                                Medically reviewed by <span>Dr. Charlsie Celestine</span>, Obstetrician and gynecologist, New Jersey, US
                             </div>
-                            <div className="data__period">
-                                <div className="data__period-left">
-                                    <p className="data__period-subtitle">
-                                        The first day of your last period
-                                    </p>
+                            <p className="data__subtitle">Written by <span> Catriona Harvey-Jenner</span></p>
+                        </div>
+                        <div className="data__period">
+                            <div className="data__period-left">
+                                <p className="data__period-subtitle">The first day of your last period</p>
+                                <label>
+                                    <input
+                                        type="date"
+                                        value={date}
+                                        min={newDate}
+                                        max={newDateAdd}
+                                        onChange={(e) => setDate(e.target.value)}
+                                    />
+                                </label>
+                            </div>
+                            <div className="data__period-right">
+                                <p className="data__period-subtitle">Average cycle length (days)</p>
+                                <div className="data__period-field">
+                                    <div className="data__period-minus">
+                                        <span onClick={() => setCount(count > 21 ? count - 1 : 21)}><AiOutlineMinus /></span>
+                                    </div>
                                     <label>
-                                        <input type="date" id="start" name="trip-start" value={date} min={newDate} max={newDateAdd} />
+                                        <input
+                                            className="data__period-input"
+                                            style={{ outline: "none" }}
+                                            type="number"
+                                            value={count}
+                                            onChange={(e) => setCount(Number(e.target.value))}
+                                        />
                                     </label>
-                                </div>
-                                <div className="data__period-right">
-                                    <p className="data__period-subtitle">
-                                        Average cycle length (days)
-                                    </p>
-                                    <div className="data__period-field">
-                                        <div className="data__period-minus">
-                                            <span onClick={() => setCount(count > 35 ? 36 : count+1)}><FiPlus/></span>
-                                        </div>
-                                        <label>
-                                            <input className={"data__period-input"} style={{outline:"none"}} type="number" value={count}/>
-                                        </label>
-                                        <div className="data__period-plus">
-                                            <span onClick={() => setCount(count < 21 ? 20 : count-1)}><AiOutlineMinus /></span>
-                                        </div>
+                                    <div className="data__period-plus">
+                                        <span onClick={() => setCount(count < 35 ? count + 1 : 35)}><FiPlus /></span>
                                     </div>
                                 </div>
                             </div>
-                            <div className="data__button">
-                                <button onClick={() => dataVs(date,count)} className="data__btn">
-                                    See results
-                                </button>
+                        </div>
+                        <div className="data__button">
+                            <button onClick={() => calculateOvulation(date, count)} className="data__btn">See results</button>
+                        </div>
+                        {dataV && (
+                            <div className="data__result">
+                                <p>Your estimated ovulation date is: <strong>{dataV}</strong></p>
                             </div>
+                        )}
                             <div className="download">
                                 <div className="download__row">
                                     <div className="download__banner">
@@ -221,7 +218,7 @@ const Ovulation = () => {
                         </div>
 
                         <div className="data__right">
-                            <div className="data__right-lists">
+                            <div className="data__right-lists active">
                                 <h4 className="data__right-title">
                                     IN THIS ARTICLE
                                 </h4>
@@ -247,11 +244,9 @@ const Ovulation = () => {
                                             </li>
                                         </ol>
                                 </div>
-
                             </div>
                         </div>
                     </div>
-
                 </section>
 
         </section>

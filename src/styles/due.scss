@@ -1,4 +1,4 @@
-.ovulation{
+.due{
   background: #e5d1ea;
   &__row{
     position: relative;
@@ -101,7 +101,7 @@
           cursor: pointer;
           font-size: 16px;
           line-height: 28.8px;
-          padding: 13px 90px;
+          padding: 13px 270px;
           text-align: start;
         }
       }
@@ -120,16 +120,16 @@
           text-align: center;
         }
       }
-        &-field{
-          align-items: center;
-          background-color: #fff;
-          border: 1px solid rgba(0, 0, 0, .2);
-          border-radius: 8px;
-          display: flex;
-          justify-content: space-between;
-          padding: 10px 16px;
-          text-align: center;
-        }
+      &-field{
+        align-items: center;
+        background-color: #fff;
+        border: 1px solid rgba(0, 0, 0, .2);
+        border-radius: 8px;
+        display: flex;
+        justify-content: space-between;
+        padding: 10px 16px;
+        text-align: center;
+      }
       &-minus{
         cursor: pointer;
         padding: 5px 0;
@@ -182,17 +182,17 @@
         margin-bottom: 30px;
       }
       &__btn{
-          border: none;
-          border-radius: 80px;
-          text-align: center;
-          transition: .3s;
-          font-size: 18px;
-          font-weight: 700;
-          letter-spacing: .013em;
-          line-height: 25.2px;
-          background: white;
-          padding: 16px 32px;
-          color: #0a5457;
+        border: none;
+        border-radius: 80px;
+        text-align: center;
+        transition: .3s;
+        font-size: 18px;
+        font-weight: 700;
+        letter-spacing: .013em;
+        line-height: 25.2px;
+        background: white;
+        padding: 16px 32px;
+        color: #0a5457;
       }
     }
     &__right{
@@ -210,26 +210,25 @@
         background: white;
         margin-right: 100px;
         &.active{
-
           z-index: 99999;
           top: 130px;
         }
       }
-        li{
-          margin: 20px 0 20px 0;
-        }
-        a{
-          color: rgba(0, 0, 0, .5);
-          font-size: 16px;
-          font-weight: 600;
-          line-height: 22.4px;
-          -webkit-text-decoration: none;
-          text-decoration: none;
-          transition: .3s;
-        }
-        a:hover{
-          color: #0a5457;
-        }
+      li{
+        margin: 20px 0 20px 0;
+      }
+      a{
+        color: rgba(0, 0, 0, .5);
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 22.4px;
+        -webkit-text-decoration: none;
+        text-decoration: none;
+        transition: .3s;
+      }
+      a:hover{
+        color: #0a5457;
+      }
     }
   }
   .image{
@@ -306,4 +305,4 @@
       color: #0a5457;
     }
   }
-  }
+}

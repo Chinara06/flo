@@ -6,10 +6,9 @@ const Home = () => {
             <section className={"flo"}>
                 <div className="header__bottom">
                     <div className="container">
-                        <p className="header__text">
-                            Flo для двоих: рассказываем, что это и
+                        <p className="header__text">Flo for two: we tell you what it is and
                             <Link to={"/partners"}>
-                                <a href=""> как зарегистрироваться</a>
+                                <a href=""> how to register</a>
                             </Link>
                         </p>
                     </div>
@@ -17,10 +16,10 @@ const Home = () => {
                 <div className="container">
                     <div className="flo__row">
                         <h1 className="flo__title">
-                            Следите за <br/> здоровьем в <br/> целом, не только <br/> за циклом
+                            Monitor your overall <br/> health, not just your<br/> cycle
                         </h1>
                         <p className="flo__text">
-                            Задача Flo — поддерживать здоровье и хорошее самочувствие <br/> каждой девушки, каждой женщины и каждого человека, у которого <br/> есть месячные, в любой точке мира
+                            Flo's mission is to support the health and wellness of every girl, every <br/> woman and every person who menstruates, anywhere in the world.
                         </p>
                     </div>
                 </div>
@@ -32,10 +31,10 @@ const Home = () => {
                       </div>
                       <div className="flo__right">
                           <h3 className="flo__titles">
-                              Получайте прогнозы <br/> по вашему циклу на <br/> основе  <br/> искусственного <br/> интеллекта
+                              Get forecasts for your <br/> cycle based on artificial <br/> intelligence
                           </h3>
                           <p className="flo__texts">
-                              Flo создает наиболее точные прогнозы месячных и <br/> овуляции на основе искусственного интеллекта, <br/> отслеживая более 70 симптомов, таких как боли <br/> внизу живота, характер выделений, головная боль <br/> и др.
+                              Flo creates the most accurate period and ovulation <br/> forecasts based on artificial intelligence, tracking  <br/> more than 70 symptoms, such as lower abdominal  <br/> pain, discharge patterns, headaches, and more.
                           </p>
                       </div>
                   </div>
@@ -45,8 +44,8 @@ const Home = () => {
                     <section className="tab">
                         <div className="container">
                         <div className="flo__menu">
-                            <a className={"flo__actives"} href="#">Медицинские эксперты</a>
-                            <a className={"flo__actives"}  href="#">Наука и исследования</a>
+                            <a className={"flo__actives"} href="#">Medical experts</a>
+                            <a className={"flo__actives"}  href="#">Science and research</a>
                         </div>
                         <div className="tab__expertises">
                             <div className="flo__list">
@@ -69,7 +68,7 @@ const Home = () => {
                                 </div>
                             </div>
                             <p className="flo__desc">
-                                Наша команда ученых, врачей и медицинских специалистов создает для вас научно обоснованные материалы, которым можно доверять.
+                                Our team of scientists, doctors and healthcare professionals bring you science-based content you can trust.
                             </p>
                         </div>
                         </div>
@@ -78,16 +77,18 @@ const Home = () => {
                 <section className="security">
                     <div className="container">
                         <h2 className="flo__subtitle">
-                            Ваши данные —  под защитой
+                            Your data is <br/> protected
                         </h2>
                         <p className="flo__descs">
-                            Вы доверяете нам личную информацию, поэтому мы гарантируем абсолютную прозрачность в отношении нашей политики безопасности и использования данных
+                            You trust us with your personal information, so we guarantee absolute transparency regarding our security policies and data usage.
                         </p>
+                        <Link to={"/privacy"}>
                         <div className="security__control">
-                            <a href="">
-                                Узнать больше о конфиденциальности и безопасности
-                            </a>
+                                <a href={""}>
+                                    Learn more about privacy and security
+                                </a>
                         </div>
+                        </Link>
                     </div>
                 </section>
                 <section className="mentioning">
@@ -98,7 +99,7 @@ const Home = () => {
                                     <img src="https://flo.health/uploads/media/sulu-1230x-inset/09/5069-logo_vogue.svg?v=1-0" alt="img"/>
                                 </div>
                                 <p className="mentioning__text">
-                                    «Flo делится с женщинами информацией, которая  делает их сильнее»
+                                    “Flo shares information with women that makes them stronger.”
                                 </p>
                             </div>
                             <div className="mentioning__item">
@@ -106,7 +107,7 @@ const Home = () => {
                                     <img src="https://flo.health/uploads/media/sulu-1230x-inset/01/5071-logo_wh.svg?v=1-0" alt="img"/>
                                 </div>
                                 <p className="mentioning__text">
-                                    «Даже если вы сами еще не используете Flo, то наверняка кто-то из ваших знакомых уже им пользуется»
+                                    “Even if you don’t use Flo yourself yet, someone you know probably already uses it.”
                                 </p>
                             </div>
                             <div className="mentioning__item">
@@ -114,7 +115,7 @@ const Home = () => {
                                     <img src="https://flo.health/uploads/media/sulu-1230x-inset/00/5070-logo_wsj.svg?v=1-0" alt="img"/>
                                 </div>
                                 <p className="mentioning__text">
-                                    «Цель Flo — стать не просто приложением, а платформой, отвечающей на любые вопросы о женском здоровье»
+                                    “Flo’s goal is to become not just an app, but a platform that answers any questions about women’s health.”
                                 </p>
                             </div>
                         </div>
@@ -125,7 +126,7 @@ const Home = () => {
 
                         <div className="articles__naw">
                             <a className="articles-title">
-                                Статьи
+                                Articles
                             </a>
                         </div>
                         <div className="articles__cards">
@@ -135,7 +136,7 @@ const Home = () => {
                                         <img src="https://flo.health/uploads/media/sulu-576x300-inset/02/1442-shutterstock_591242858.jpg?v=1-0" alt="#" width={"278"} height={"225"}/>
                                     </div>
                                     <p className="articles__card-text">
-                                        Стрессовое состояние
+                                        Stressful state
                                     </p>
                                 </a>
                             </div>
@@ -145,7 +146,7 @@ const Home = () => {
                                         <img src="https://flo.health/uploads/media/sulu-576x300-inset/03/1033-depressed%20woman%20on%20the%20bed.jpg?v=1-0" width={"278"} height={"225"} alt="#"/>
                                     </div>
                                     <p className="articles__card-text">
-                                        Сезонное депрессивное расстройство
+                                        Seasonal depressive disorder
                                     </p>
                                 </a>
                             </div>
@@ -155,7 +156,7 @@ const Home = () => {
                                         <img src="https://flo.health/uploads/media/sulu-576x300-inset/09/599-baby%20blues%20-%20m.jpg?v=1-0" alt="#" width={"278"} height={"225"}/>
                                     </div>
                                     <p className="articles__card-text">
-                                        Послеродовая депрессия
+                                        Postpartum depression
                                     </p>
                                 </a>
                             </div>
@@ -165,7 +166,7 @@ const Home = () => {
                                         <img src="https://flo.health/uploads/media/sulu-576x300-inset/06/1236-woman%20suffering%20from%20depression%20sitting%20on%20bed.jpg?v=1-0" alt="#"  width={"278"} height={"225"}/>
                                     </div>
                                     <p className="articles__card-text">
-                                        Клиническая депрессия
+                                        Clinical depression
                                     </p>
                                 </a>
                             </div>

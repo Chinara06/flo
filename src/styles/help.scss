@@ -1,7 +1,7 @@
 .help{
   &__row{
     background: #f4e9f6;
-    padding: 150px 300px 150px 0;
+    padding: 50px 300px 150px 0;
   }
   &__title{
     font-size: 58px;
@@ -27,6 +27,8 @@
     width: 100%;
     padding: 20px 20px;
     column-gap: 20px;
+    display: flex;
+    align-items: start;
     input{
       margin-left: 20px;
       font-weight: 300;
@@ -61,6 +63,15 @@
     position: absolute;
     top: 100%;
     margin-top: 20px;
+  }
+  .person-details{
+    padding: 20px ;
+    h2{
+      margin-bottom: 10px;
+    }
+    p{
+      margin-bottom: 10px;
+    }
   }
   .about{
     background: #fdfdfd;

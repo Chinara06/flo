@@ -7,47 +7,47 @@ const Footer = () => {
                 <div className="footer__row">
                     <div className="footer__left">
                         <h4 className={"footer__title"}>
-                            НАШ ПРОДУКТ
+                            OUR Product
                         </h4>
                         <ul className="footer__items">
                             <li className="footer__item">
-                                <a href="">Безопасность</a>
-                                <a href="">Центр поддержки</a>
+                                <a href="">Safety</a>
+                                <a href="">Support Center</a>
                             </li>
                         </ul>
                     </div>
                     <div className="footer__middle">
                         <h4 className={"footer__title"}>
-                            КОМПАНИЯ
+                            COMPANY
                         </h4>
                         <ul className="footer__items">
                             <li className="footer__item">
-                                <a href="">О нас</a>
+                                <a href="">About</a>
                             </li>
                         </ul>
                     </div>
                     <div className="footer__center">
                         <h4 className={"footer__title"}>
-                            КОНФИДЕНЦИАЛЬНОСТЬ
+                            CONFIDENTIALITY
                         </h4>
                         <ul className="footer__items">
                             <li className="footer__item">
-                                <a href="">Политика использования файлов cookie</a>
-                                <a href="">Условия использования</a>
-                                <a href="">Политика конфиденциальности</a>
+                                <a href="">Cookie Policy</a>
+                                <a href="">Terms of Use</a>
+                                <a href="">Privacy Policy</a>
                             </li>
                         </ul>
                     </div>
                     <div className="footer__right">
                         <h4 className={"footer__title"}>
-                            СОЦИАЛЬНЫЕ МЕДИА
+                            SOCIAL MEDIA
                         </h4>
                         <ul className="footer__items">
                             <li className="footer__item">
-                                <a href="https://m.facebook.com/flotracker">Фло в Facebook</a>
-                                <a href="https://www.instagram.com/flotracker/">Фло в Инстаграме</a>
-                                <a href="https://www.tiktok.com/@flotracker?lang=en">Фло в TikTok</a>
-                                <a href="https://uk.linkedin.com/company/flohealth">Фло в Linkedin</a>
+                                <a href="https://m.facebook.com/flotracker">Flo on Facebook</a>
+                                <a href="https://www.instagram.com/flotracker/">Flo on Instagram</a>
+                                <a href="https://www.tiktok.com/@flotracker?lang=en">Flo on TikTok</a>
+                                <a href="https://uk.linkedin.com/company/flohealth">Flo on Linkedin</a>
                             </li>
                         </ul>
                     </div>

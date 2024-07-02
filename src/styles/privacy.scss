@@ -1,0 +1,47 @@
+.privacy{
+  margin-bottom: 100px;
+  &__row{
+    align-items: center;
+  }
+  &__texts{
+    margin: 50px 0;
+    text-align: center;
+  }
+  &__title{
+    font-size: 85px;
+    font-weight: 800;
+    line-height: 1;
+    margin-bottom: 50px;
+  }
+  &__desc{
+    margin: 0 150px 20px ;
+    line-height: 30px;
+  }
+  &__img{
+    text-align: center;
+  }
+  .banner{
+    &__card{
+      align-items: center;
+      text-align: center;
+      border: 1px solid lightslategray;
+      border-radius: 10px;
+      padding: 100px 50px 70px;
+      margin: 0 100px;
+    }
+    &__img{
+      column-gap: 15px;
+      display: flex;
+      justify-content: center;
+      margin-bottom: 40px;
+    }
+    &__title{
+      font-size: 45px;
+      margin-bottom: 25px;
+    }
+    &__desc{
+      font-size: 18px;
+      line-height: 30px;
+    }
+  }
+}

@@ -1,7 +1,56 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="745e8f84-31ba-4598-9151-63c09fe3e92e" name="Default Changelist" comment="" />
+    <list default="true" id="745e8f84-31ba-4598-9151-63c09fe3e92e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/pages/Auth/Login/Login.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/Auth/Register/Register.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/Privacy/Privacy.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/adminpanel/AdminPanel.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/redux/auth/auth.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/redux/contact/contact.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/adminpanel.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/login.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/privacy.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/register.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.json" beforeDir="false" afterPath="$PROJECT_DIR$/db.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Home/Home.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Home/Home.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Layout/Footer/Footer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Layout/Footer/Footer.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Layout/Header/Header.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Layout/Header/Header.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Partner/Partner.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Partner/Partner.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/ Pregnancy/Pregnancy.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/ Pregnancy/Pregnancy.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Being/Being.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Calculators/Calculators.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Calculators/Calculators.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Contact/Contact.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Contact/Contact.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Cycle/Cycle.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Due/Due.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Due/Due.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Getting/Getting.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Health/Health.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Help/Help.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Help/Help.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Library/Library.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/More/More.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/More/More.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Ovulation/Ovulation.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Ovulation/Ovulation.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Partners/Partners.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Partners/Partners.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Period/Period.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Period/Period.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/PregnancyCalc/PregnancyCalc.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/PregnancyCalc/PregnancyCalc.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/PregnancyTwo/PregnancyTwo.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Pregnant/Pregnant.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Pregnant/Pregnant.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/calculators.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/calculators.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/header.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/help.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/help.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/home.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/home.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/library.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/library.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/medical.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/medical.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/ovulation.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/ovulation.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/partner.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/partner.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/partners.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/partners.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/pregnancy.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/pregnancy.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/pregnant.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/pregnant.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/style.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/tracking.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/tracking.scss" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -41,6 +90,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Amin_stors\Desktop\flo\src\pages" />
       <recent name="C:\Users\Amin_stors\Desktop\flo\src\redux" />
       <recent name="C:\Users\Amin_stors\Desktop\flo\src\pages\More" />
     </key>
@@ -255,6 +305,62 @@
       <workItem from="1717355491534" duration="344000" />
       <workItem from="1717358587261" duration="5168000" />
       <workItem from="1717433536078" duration="550000" />
+      <workItem from="1717434119159" duration="1735000" />
+      <workItem from="1717490992487" duration="2813000" />
+      <workItem from="1717500939394" duration="2070000" />
+      <workItem from="1717503963179" duration="1776000" />
+      <workItem from="1717506411755" duration="3678000" />
+      <workItem from="1717576928971" duration="1576000" />
+      <workItem from="1717683632381" duration="187000" />
+      <workItem from="1717761277667" duration="6292000" />
+      <workItem from="1717839800659" duration="2838000" />
+      <workItem from="1717871794058" duration="44000" />
+      <workItem from="1717871853861" duration="95000" />
+      <workItem from="1717872044888" duration="1156000" />
+      <workItem from="1717873372206" duration="183000" />
+      <workItem from="1717873573782" duration="437000" />
+      <workItem from="1717874035385" duration="142000" />
+      <workItem from="1717920079117" duration="1552000" />
+      <workItem from="1717923759602" duration="732000" />
+      <workItem from="1717927032162" duration="791000" />
+      <workItem from="1717930808297" duration="52000" />
+      <workItem from="1717931067381" duration="16000" />
+      <workItem from="1717931097770" duration="352000" />
+      <workItem from="1717931594264" duration="10241000" />
+      <workItem from="1718023478678" duration="543000" />
+      <workItem from="1718024136194" duration="353000" />
+      <workItem from="1718026594849" duration="3000" />
+      <workItem from="1718026714623" duration="4000" />
+      <workItem from="1718027058143" duration="6739000" />
+      <workItem from="1718107775402" duration="2194000" />
+      <workItem from="1718110340752" duration="1062000" />
+      <workItem from="1718170735755" duration="7408000" />
+      <workItem from="1718196844309" duration="7140000" />
+      <workItem from="1718258169756" duration="1052000" />
+      <workItem from="1718260517105" duration="30000" />
+      <workItem from="1718260559432" duration="70000" />
+      <workItem from="1718260649796" duration="8000" />
+      <workItem from="1718260677292" duration="56000" />
+      <workItem from="1718260755346" duration="76000" />
+      <workItem from="1718260834242" duration="3000" />
+      <workItem from="1718260883061" duration="78000" />
+      <workItem from="1718260974125" duration="16000" />
+      <workItem from="1718261001235" duration="267000" />
+      <workItem from="1718261288103" duration="38000" />
+      <workItem from="1718261349104" duration="51000" />
+      <workItem from="1718261609423" duration="235000" />
+      <workItem from="1718263743545" duration="1781000" />
+      <workItem from="1718265818144" duration="59000" />
+      <workItem from="1718265904524" duration="33000" />
+      <workItem from="1718265958191" duration="7990000" />
+      <workItem from="1718279346262" duration="3249000" />
+      <workItem from="1718289412625" duration="731000" />
+      <workItem from="1718621866064" duration="946000" />
+      <workItem from="1719042440851" duration="3000" />
+      <workItem from="1719042955401" duration="3000" />
+      <workItem from="1719043051628" duration="11000" />
+      <workItem from="1719043091971" duration="6000" />
+      <workItem from="1719907282264" duration="240000" />
     </task>
     <servers />
   </component>
@@ -266,13 +372,13 @@
       <screen x="0" y="0" width="1536" height="816" />
     </state>
     <state x="223" y="63" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.816@0.0.1536.816" timestamp="1713813373494" />
-    <state x="499" y="155" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1716626925851">
+    <state x="499" y="155" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1718271336884">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state x="499" y="155" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.816@0.0.1536.816" timestamp="1716626925851" />
-    <state x="425" y="185" key="run.anything.popup" timestamp="1716820445801">
+    <state x="499" y="155" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.816@0.0.1536.816" timestamp="1718271336884" />
+    <state x="425" y="185" key="run.anything.popup" timestamp="1718264219655">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state x="425" y="185" key="run.anything.popup/0.0.1536.816@0.0.1536.816" timestamp="1716820445801" />
+    <state x="425" y="185" key="run.anything.popup/0.0.1536.816@0.0.1536.816" timestamp="1718264219655" />
   </component>
 </project>

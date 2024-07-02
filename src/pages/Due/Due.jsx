@@ -1,4 +1,4 @@
-import React, {useEffect} from 'react';
+import React, {useEffect,useState} from 'react';
 import {Link} from "react-router-dom";
 import {useDispatch, useSelector} from "react-redux";
 import {getDue} from "../../redux/due/due";
@@ -6,13 +6,30 @@ import { AiOutlineMinus } from "react-icons/ai";
 import { FiPlus } from "react-icons/fi";
 
 const Due = () => {
-    const {data} = useSelector(store => store.due);
+    const { data } = useSelector((store) => store.due);
     const dispatch = useDispatch();
     useEffect(() => {
-        dispatch(getDue())
-    },[])
+        dispatch(getDue());
+    }, []);
+
+    const [lastPeriodDate, setLastPeriodDate] = useState("2024-05-21"); // Устанавливаем дату последней менструации по умолчанию
+
+    const calculateDueDate = () => {
+        const lastPeriod = new Date(lastPeriodDate);
+        const dueDate = new Date(lastPeriod.getTime() + 280 * 24 * 60 * 60 * 1000); // 280 дней в миллисекундах
+        return dueDate.toDateString();
+    };
+
+    const handleClick = () => {
+        if (!lastPeriodDate) {
+            alert("Please select the first day of your last period.");
+        } else {
+            const dueDate = calculateDueDate();
+            document.getElementById("dueDate").innerText = dueDate;
+        }
+    };
     return (
-        <section className={"ovulation"}>
+        <section className={"due"}>
             <div className="container">
                 <div className="ovulation__left">
                     <div className="ovulation__row">
@@ -41,7 +58,7 @@ const Due = () => {
                             </p>
                             <div className="data__text">
                                 <img src="https://flo.health/cdn-cgi/image/quality=85,format=auto/uploads/media/sulu-48x48/01/5481-CLOS_000209_Light.png?v=1-0" alt="#" width={"24"} height={"24"}/>
-                                Medically reviewed by <span>Dr. Barbara Levy,</span>,, Clinical professor of obstetrics and gynecology and chief medical officer, Visana Health, California, US
+                                Medically reviewed by <span>Dr. Barbara Levy,</span>, Clinical professor of obstetrics and gynecology and chief medical officer, Visana Health, California, US
                             </div>
                             <p className="data__subtitle">
                                 Written by <span> Natalie Cornish</span>
@@ -53,30 +70,17 @@ const Due = () => {
                                     The first day of your last period
                                 </p>
                                 <label>
-                                    <input type="date" id="start" name="trip-start" value="2024-05-21" min="2024-05-21" max="2025-05-21" />
+                                    <input type="date" id="start" name="trip-start" value={lastPeriodDate} min="2024-05-21" max="2025-05-21" onChange={(e) => setLastPeriodDate(e.target.value)} />
                                 </label>
-                            </div>
-                            <div className="data__period-right">
-                                <p className="data__period-subtitle">
-                                    Average cycle length (days)
-                                </p>
-                                <div className="data__period-field">
-                                    <div className="data__period-minus">
-                                        <span><AiOutlineMinus /></span>
-                                    </div>
-                                    <label>
-                                        <input type="number"/>
-                                    </label>
-                                    <div className="data__period-plus">
-                                        <span><FiPlus /></span>
-                                    </div>
-                                </div>
                             </div>
                         </div>
                         <div className="data__button">
-                            <button className="data__btn">
-                                See results
+                            <button className="data__btn" onClick={handleClick}>
+                                Click here to calculate your due date
                             </button>
+                        </div>
+                        <div className="data__result">
+                            Due Date: <span id="dueDate"></span>
                         </div>
                         <div className="download">
                             <div className="download__row">
@@ -187,7 +191,7 @@ const Due = () => {
                     </div>
 
                     <div className="data__right">
-                        <div className="data__right-lists">
+                        <div className="data__right-lists active">
                             <h4 className="data__right-title">
                                 IN THIS ARTICLE
                             </h4>

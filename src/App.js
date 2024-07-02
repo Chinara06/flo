@@ -5,20 +5,13 @@ import Home from "./Home/Home";
 import Tracking from "./pages/Tracking/Tracking";
 import Pregnant from "./pages/Pregnant/Pregnant";
 import Pregnancy from "./pages/ Pregnancy/Pregnancy";
-import Partners from "./pages/Partners/Partners";
 import Help from "./pages/Help/Help";
 import About from "./pages/About/About";
 import Medical from "./pages/Madical/Medical";
 import Try from "./pages/Try/Try";
 import Research from "./pages/Research/Research";
 import Press from "./pages/Press/Press";
-import Cycle from "./pages/Cycle/Cycle";
-import Health from "./pages/Health/Health";
-import Getting from "./pages/Getting/Getting";
-import Being from "./pages/Being/Being";
 import Calculators from "./pages/Calculators/Calculators";
-import PregnancyTwo from "./pages/PregnancyTwo/PregnancyTwo";
-import Library from "./pages/Library/Library";
 import Experts from "./pages/Experts/Experts";
 import More from "./pages/More/More";
 import See from "./pages/See/See";
@@ -33,9 +26,25 @@ import Due from "./pages/Due/Due";
 import Ivf from "./pages/Ivf/Ivf";
 import Ultrasound from "./pages/Ultrasound/Ultrasound";
 import Contact from "./pages/Contact/Contact";
-import Partner from "./Partner/Partner";
-
+import Partner from "./pages/Partner/Partner";
+import AdminPanel from "./pages/adminpanel/AdminPanel";
+import Privacy from "./pages/Privacy/Privacy";
+import Register from "./pages/Auth/Register/Register";
+import Login from "./pages/Auth/Login/Login";
+import { useSelector} from "react-redux";
+import Partners from "./pages/Partners/Partners";
 function App() {
+                const role = [
+                        {
+                                id:1,
+                                role:"admin"
+                        },
+                        {
+                                id:2,
+                                role:"user"
+                        }
+                ];
+                const {data} = useSelector(store => store.auth)
     return(
         <Routes>
             <Route path={""} element={<Layout/>}>
@@ -43,19 +52,11 @@ function App() {
             <Route path={"/tracking"} element={<Tracking/>}/>
             <Route path={"/pregnant"} element={<Pregnant/>}/>
             <Route path={"/pregnancy"} element={<Pregnancy/>}/>
-            <Route path={"/partners"} element={<Partners/>}/>
-            <Route path={"/help"} element={<Help/>}/>
             <Route path={"/about"} element={<About/>}/>
             <Route path={"/medical"} element={<Medical/>}/>
             <Route path={"/try"} element={<Try/>}/>
             <Route path={"/research"} element={<Research/>}/>
             <Route path={"/press"} element={<Press/>}/>
-            <Route path={"/cycle"} element={<Cycle/>}/>
-            <Route path={"/library"} element={<Library/>}/>
-            <Route path={"/health"} element={<Health/>}/>
-            <Route path={"/getting"} element={<Getting/>}/>
-            <Route path={"/pregnancyTwo/"} element={<PregnancyTwo/>}/>
-            <Route path={"/being"} element={<Being/>}/>
             <Route path={"/calculators"} element={<Calculators/>}/>
             <Route path={"/experts/:id"} element={<Experts/>}/>
             <Route path={"/more"} element={<More/>}/>
@@ -71,8 +72,17 @@ function App() {
             <Route path={"/ivf"} element={<Ivf/>}/>
             <Route path={"/ultrasound"} element={< Ultrasound/>}/>
             <Route path={"/contact"} element={< Contact/>}/>
+            <Route path={"/partners"} element={< Partners/>}/>
             <Route path={"/partner"} element={< Partner/>}/>
+                    {
+                            data?.user?.role === "admin" ? <Route path={"/adminpanel"} element={< AdminPanel/>}/> : ""
+                    }
+            <Route path={"/help"} element={<Help/>}/>
+            <Route path={"/privacy"} element={<Privacy/>}/>
             </Route>
+                <Route path={"/register"} element={< Register/>}/>
+                <Route path={"/login"} element={< Login/>}/>
+
         </Routes>
 
   );
